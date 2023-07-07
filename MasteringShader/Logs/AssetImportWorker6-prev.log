@@ -1,0 +1,308 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.4f1 (35713cd46cd7) revision 3502396'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'ko' Physical Memory: 16236 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.4f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker6
+-projectPath
+C:/Users/shk54/Desktop/Unity/MasteringShader
+-logFile
+Logs/AssetImportWorker6.log
+-srvPort
+57236
+Successfully changed project path to: C:/Users/shk54/Desktop/Unity/MasteringShader
+C:/Users/shk54/Desktop/Unity/MasteringShader
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [19692] Host "[IP] 192.168.1.200 [Port] 0 [Flags] 2 [Guid] 2482895179 [EditorId] 2482895179 [Version] 1048832 [Id] WindowsEditor(7,Dogtime) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [19692] Host "[IP] 192.168.1.200 [Port] 0 [Flags] 2 [Guid] 2482895179 [EditorId] 2482895179 [Version] 1048832 [Id] WindowsEditor(7,Dogtime) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 6.19 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.4f1 (35713cd46cd7)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/shk54/Desktop/Unity/MasteringShader/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2560)
+    Vendor:   NVIDIA
+    VRAM:     6009 MB
+    Driver:   31.0.15.3623
+Shader 'PACKT/unlit_wireframe': fallback shader 'Vertex Colored' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56620
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005317 seconds.
+- Loaded All Assemblies, in  0.294 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.206 seconds
+Domain Reload Profiling: 500ms
+	BeginReloadAssembly (82ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (124ms)
+		LoadAssemblies (81ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (120ms)
+			TypeCache.Refresh (119ms)
+				TypeCache.ScanAssembly (110ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (207ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (157ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (106ms)
+			ProcessInitializeOnLoadMethodAttributes (37ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\shk54\Desktop\Unity\MasteringShader\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\shk54\Desktop\Unity\MasteringShader\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.525 seconds
+Refreshing native plugins compatible for Editor in 1.98 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.365 seconds
+Domain Reload Profiling: 889ms
+	BeginReloadAssembly (96ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (18ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (360ms)
+		LoadAssemblies (191ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (214ms)
+			TypeCache.Refresh (201ms)
+				TypeCache.ScanAssembly (192ms)
+			ScanForSourceGeneratedMonoScriptInfo (10ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (365ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (255ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (45ms)
+			ProcessInitializeOnLoadAttributes (182ms)
+			ProcessInitializeOnLoadMethodAttributes (15ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Shader 'PACKT/unlit_wireframe': fallback shader 'Vertex Colored' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 2.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3095 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (56.8 KB). Loaded Objects now: 3565.
+Memory consumption went from 124.1 MB to 124.0 MB.
+Total: 2.918100 ms (FindLiveObjects: 0.209800 ms CreateObjectMapping: 0.085500 ms MarkObjects: 2.528300 ms  DeleteObjects: 0.093400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/orbitTrail.cs: 10110efdcfe63599606328c8f5dc1b39 -> aaa50e02d834f55570c9ccc55ff53d2a
+  custom:scripting/monoscript/fileName/alienDrops.cs: 92141a5ef9cd37883681e3af86d91b51 -> 1e2e2421cc8158a583e5cec70ec1f642
+  custom:scripting/monoscript/fileName/bary.cs: 06a34c0ffe311c616df29158b5c8efd0 -> f8f44dce6c1320ebed5e7597e1c84988
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/textAnim.cs: 87297d3d24fc3c7426fefff397988e21 -> 2a0993546192c8ff4d6919a1d7e89a71
+  custom:scripting/monoscript/fileName/characterMover.cs: c0710bf5067f294231651d7d591f3cbf -> deb36823278734b01c10e0f6385b0fca
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/cloudAnim.cs: 6d9b34ca64ec8a0215b5ac78a30c308d -> 50ccba84a27f6114be5e7a569e3f6056
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/cloudAnim_final.cs: 49bb0b7abb9c0ba66618ca2fd2be76db -> 21dd78e5293625bffcfac1f634d86ec3
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/cameraScript.cs: 68d198bfc8e546bbd8c39d8299719c16 -> 7f9e3ed5ec95d5b752e1d3f7f3cdf4dc
+  custom:scripting/monoscript/fileName/controlTwinkle01.cs: e6b684e9856fa125a0c10d7bd41dd12c -> cf5cff20d854d0c9d98817c8ae2a7245
+  custom:scripting/monoscript/fileName/storm.cs: 4f528595223a101c1d1a2918db40a412 -> b2476ed3ded2a5da53db5c61b614bbe0
+  custom:scripting/monoscript/fileName/offsetTexture.cs: 00293bc961aa98b3e38bbe844da821d3 -> d95b5bc08d50e1d060fdd5b5f1a02ec3
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/alienMover.cs: debc5dbdf2f25d3185756447f58c6ac8 -> fd3bbee737ecaa73d834837790d2b092
+  custom:scripting/monoscript/fileName/destHS.cs: 67a8e57d2f31e2c610e8e63190206fd6 -> a0679f875eb1bb16ac3fe5a591be5830
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/controlTwinkle_final.cs: 464fa944638499f339a41a3b37e2077c -> 30027fb9f3aaf60c2f2958816f845bec
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/crateNumbers.cs: ebdb331d3b5a794d8031cf74a1409560 -> fe5f7b97248edfbbfb54041c095ab925
+  custom:scripting/monoscript/fileName/planetSurf.cs: e7fa15da115b461263488ba6ea568a90 -> e3a420f977c86cf19a80a2f7f9d04f0a
+  custom:scripting/monoscript/fileName/burnEffect.cs: 55adb8f18d380c7bd9d50342bff7b00b -> 74788f1b9b14b856f689c27e3a2ffab9
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 693095.798124 seconds.
+  path: Assets/PACKT/PACKT_Textures/astronaut_suit/astronaut_suit_ao.tga
+  artifactKey: Guid(51db27dcd2b6cde478fd6a57cf0f5eb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PACKT/PACKT_Textures/astronaut_suit/astronaut_suit_ao.tga using Guid(51db27dcd2b6cde478fd6a57cf0f5eb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5fdb76e1baac46a946016582292954c') in 0.061125 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003696 seconds.
+  path: Assets/PACKT/PACKT_Textures/astronaut_crew/crewsuit_ao.png
+  artifactKey: Guid(e6cf5c958e8843c4cac8728da118ac4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PACKT/PACKT_Textures/astronaut_crew/crewsuit_ao.png using Guid(e6cf5c958e8843c4cac8728da118ac4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93dd4dfc2d8dc9dd33a2782399070208') in 0.018098 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PACKT/PACKT_Textures/astronaut_suit/equipment_albedo.tga
+  artifactKey: Guid(3cd97f9e41188f64c98bc3b1976fc9ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PACKT/PACKT_Textures/astronaut_suit/equipment_albedo.tga using Guid(3cd97f9e41188f64c98bc3b1976fc9ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faa514b72cdc87765eacbae564370331') in 0.011733 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.447625 seconds.
+  path: Assets/PACKT/PACKT_Textures/astronaut_suit/equipment_emission2.png
+  artifactKey: Guid(3f262826a4bf99046a37d427b5f43592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PACKT/PACKT_Textures/astronaut_suit/equipment_emission2.png using Guid(3f262826a4bf99046a37d427b5f43592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f18720dc430973fa7c9133ba4f4fccf0') in 0.025143 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.022656 seconds.
+  path: Assets/PACKT/PACKT_Textures/flameGun_normal.png
+  artifactKey: Guid(274c93bde2812624fbac53e4549047a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PACKT/PACKT_Textures/flameGun_normal.png using Guid(274c93bde2812624fbac53e4549047a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '809ed30e9c820d8861cb1ac98488cfad') in 0.034974 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PACKT/PACKT_Textures/hair_normal.png
+  artifactKey: Guid(06b563e5d50943d4d88bc48927f6abc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PACKT/PACKT_Textures/hair_normal.png using Guid(06b563e5d50943d4d88bc48927f6abc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6709896937d8c93f49719062b092016') in 0.017940 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.049590 seconds.
+  path: Assets/PACKT/PACKT_Textures/loadingDock_emissive.png
+  artifactKey: Guid(d6f6cbe0afc6d784c8621f635b6b54ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PACKT/PACKT_Textures/loadingDock_emissive.png using Guid(d6f6cbe0afc6d784c8621f635b6b54ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcb94b7539780ee04ecfd5bb0137ec27') in 0.011553 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 8.484777 seconds.
+  path: Assets/PACKT/PACKT_Textures/PACKT_astronaut87b_crewSuit_diffuse.tga
+  artifactKey: Guid(2b078699880d1b646bf30252b47a7358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PACKT/PACKT_Textures/PACKT_astronaut87b_crewSuit_diffuse.tga using Guid(2b078699880d1b646bf30252b47a7358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81e2e58ef94395926927ce8dd5c1aad2') in 0.015275 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 263.196635 seconds.
+  path: Assets/PACKT/PACKT_Textures/researchStation_ext/researchCenter_new_normal.tga
+  artifactKey: Guid(3ba4a2c87d7997149acca99008cf440f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PACKT/PACKT_Textures/researchStation_ext/researchCenter_new_normal.tga using Guid(3ba4a2c87d7997149acca99008cf440f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4404e6f5561069c3ce09a4bcf692aa81') in 0.016339 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PACKT/PACKT_Textures/spacecraft_surface/spacecraft_normal.tga
+  artifactKey: Guid(274ab48fe2d1eaa4aa2f093767596151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PACKT/PACKT_Textures/spacecraft_surface/spacecraft_normal.tga using Guid(274ab48fe2d1eaa4aa2f093767596151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e64c6a44482fb7b29081c3d1ccb70bd') in 0.015227 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 55.139551 seconds.
+  path: Assets/PACKT/PACKT_Textures/researchStation_int/monitor01.png
+  artifactKey: Guid(332421c72bf2c414690d941c9c98c27d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PACKT/PACKT_Textures/researchStation_int/monitor01.png using Guid(332421c72bf2c414690d941c9c98c27d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2af3c20329a5101075b94b1d3bfe904') in 0.013381 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PACKT/PACKT_Textures/researchStation_ext/number1.png
+  artifactKey: Guid(6a6e37c22ac57024d80de612e462b06e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PACKT/PACKT_Textures/researchStation_ext/number1.png using Guid(6a6e37c22ac57024d80de612e462b06e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae1d7fbf5c27376dd0e272f9f0fdc2ea') in 0.012121 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PACKT/PACKT_Textures/moon_albedo.tga
+  artifactKey: Guid(95069e343b3b93d4486b0949eeeabf59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PACKT/PACKT_Textures/moon_albedo.tga using Guid(95069e343b3b93d4486b0949eeeabf59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b976c624ecc42aecc10b82c6aad601e6') in 0.010762 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: 스레드 종료 또는 응용 프로그램 요청 때문에 I/O 작업이 취소되었습니다.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

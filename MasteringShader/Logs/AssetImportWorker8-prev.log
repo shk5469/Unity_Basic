@@ -1,0 +1,2576 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.4f1 (35713cd46cd7) revision 3502396'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'ko' Physical Memory: 16236 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.4f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker8
+-projectPath
+C:/Users/shk54/Desktop/Unity/MasteringShader
+-logFile
+Logs/AssetImportWorker8.log
+-srvPort
+57236
+Successfully changed project path to: C:/Users/shk54/Desktop/Unity/MasteringShader
+C:/Users/shk54/Desktop/Unity/MasteringShader
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8352] Host "[IP] 192.168.1.200 [Port] 0 [Flags] 2 [Guid] 1256493252 [EditorId] 1256493252 [Version] 1048832 [Id] WindowsEditor(7,Dogtime) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [8352] Host "[IP] 192.168.1.200 [Port] 0 [Flags] 2 [Guid] 1256493252 [EditorId] 1256493252 [Version] 1048832 [Id] WindowsEditor(7,Dogtime) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 5.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.4f1 (35713cd46cd7)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/shk54/Desktop/Unity/MasteringShader/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2560)
+    Vendor:   NVIDIA
+    VRAM:     6009 MB
+    Driver:   31.0.15.3623
+Shader 'PACKT/unlit_wireframe': fallback shader 'Vertex Colored' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56892
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004951 seconds.
+- Loaded All Assemblies, in  0.232 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.196 seconds
+Domain Reload Profiling: 428ms
+	BeginReloadAssembly (60ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (97ms)
+		LoadAssemblies (59ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (93ms)
+			TypeCache.Refresh (93ms)
+				TypeCache.ScanAssembly (85ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (196ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (153ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (104ms)
+			ProcessInitializeOnLoadMethodAttributes (36ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\shk54\Desktop\Unity\MasteringShader\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\shk54\Desktop\Unity\MasteringShader\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.482 seconds
+Refreshing native plugins compatible for Editor in 2.01 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.356 seconds
+Domain Reload Profiling: 838ms
+	BeginReloadAssembly (92ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (17ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (326ms)
+		LoadAssemblies (168ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (200ms)
+			TypeCache.Refresh (187ms)
+				TypeCache.ScanAssembly (179ms)
+			ScanForSourceGeneratedMonoScriptInfo (10ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (357ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (251ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (44ms)
+			ProcessInitializeOnLoadAttributes (180ms)
+			ProcessInitializeOnLoadMethodAttributes (14ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Shader 'PACKT/unlit_wireframe': fallback shader 'Vertex Colored' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3095 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (56.9 KB). Loaded Objects now: 3565.
+Memory consumption went from 124.0 MB to 124.0 MB.
+Total: 3.033800 ms (FindLiveObjects: 0.206100 ms CreateObjectMapping: 0.141500 ms MarkObjects: 2.588900 ms  DeleteObjects: 0.096300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/orbitTrail.cs: 10110efdcfe63599606328c8f5dc1b39 -> aaa50e02d834f55570c9ccc55ff53d2a
+  custom:scripting/monoscript/fileName/alienDrops.cs: 92141a5ef9cd37883681e3af86d91b51 -> 1e2e2421cc8158a583e5cec70ec1f642
+  custom:scripting/monoscript/fileName/bary.cs: 06a34c0ffe311c616df29158b5c8efd0 -> f8f44dce6c1320ebed5e7597e1c84988
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/textAnim.cs: 87297d3d24fc3c7426fefff397988e21 -> 2a0993546192c8ff4d6919a1d7e89a71
+  custom:scripting/monoscript/fileName/characterMover.cs: c0710bf5067f294231651d7d591f3cbf -> deb36823278734b01c10e0f6385b0fca
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/cloudAnim.cs: 6d9b34ca64ec8a0215b5ac78a30c308d -> 50ccba84a27f6114be5e7a569e3f6056
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/cloudAnim_final.cs: 49bb0b7abb9c0ba66618ca2fd2be76db -> 21dd78e5293625bffcfac1f634d86ec3
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/cameraScript.cs: 68d198bfc8e546bbd8c39d8299719c16 -> 7f9e3ed5ec95d5b752e1d3f7f3cdf4dc
+  custom:scripting/monoscript/fileName/controlTwinkle01.cs: e6b684e9856fa125a0c10d7bd41dd12c -> cf5cff20d854d0c9d98817c8ae2a7245
+  custom:scripting/monoscript/fileName/storm.cs: 4f528595223a101c1d1a2918db40a412 -> b2476ed3ded2a5da53db5c61b614bbe0
+  custom:scripting/monoscript/fileName/offsetTexture.cs: 00293bc961aa98b3e38bbe844da821d3 -> d95b5bc08d50e1d060fdd5b5f1a02ec3
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/alienMover.cs: debc5dbdf2f25d3185756447f58c6ac8 -> fd3bbee737ecaa73d834837790d2b092
+  custom:scripting/monoscript/fileName/destHS.cs: 67a8e57d2f31e2c610e8e63190206fd6 -> a0679f875eb1bb16ac3fe5a591be5830
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/controlTwinkle_final.cs: 464fa944638499f339a41a3b37e2077c -> 30027fb9f3aaf60c2f2958816f845bec
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/crateNumbers.cs: ebdb331d3b5a794d8031cf74a1409560 -> fe5f7b97248edfbbfb54041c095ab925
+  custom:scripting/monoscript/fileName/planetSurf.cs: e7fa15da115b461263488ba6ea568a90 -> e3a420f977c86cf19a80a2f7f9d04f0a
+  custom:scripting/monoscript/fileName/burnEffect.cs: 55adb8f18d380c7bd9d50342bff7b00b -> 74788f1b9b14b856f689c27e3a2ffab9
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 693426.132560 seconds.
+  path: Assets/PACKT/PACKT_Textures/Particles/steamParticle_atlas.png
+  artifactKey: Guid(d4ab0a0d2e95d854a9697e1bb4a9e354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PACKT/PACKT_Textures/Particles/steamParticle_atlas.png using Guid(d4ab0a0d2e95d854a9697e1bb4a9e354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f03cd0347b9ffc0c1915ec22aa7c14c') in 0.040982 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 211.101444 seconds.
+  path: Assets/PACKT/PACKT_Textures/researchStation_ext/researchCenter_new_ao.tga
+  artifactKey: Guid(03a43f12a82829b42915d494d4b0c3be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PACKT/PACKT_Textures/researchStation_ext/researchCenter_new_ao.tga using Guid(03a43f12a82829b42915d494d4b0c3be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a89710f9df145260507c9422eabd3af') in 0.017243 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PACKT/PACKT_Textures/researchStation_int/researchLab_diffuse.tga
+  artifactKey: Guid(bbcf9712e75ee9b42a160be30db5ac98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PACKT/PACKT_Textures/researchStation_int/researchLab_diffuse.tga using Guid(bbcf9712e75ee9b42a160be30db5ac98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da0c5c5963845ab0f76c00eba74eab27') in 0.012762 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PACKT/PACKT_Textures/researcher_albedo.tga
+  artifactKey: Guid(223587537b0795344b0a36d30ec4cccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PACKT/PACKT_Textures/researcher_albedo.tga using Guid(223587537b0795344b0a36d30ec4cccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64a9b6d27342e4f0dba869ae47fb5980') in 0.011183 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 195.353861 seconds.
+  path: Assets/Materials/myastronaut_equipment.mat
+  artifactKey: Guid(490f1cbc8901792458f289200db257f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/myastronaut_equipment.mat using Guid(490f1cbc8901792458f289200db257f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8ec4349c430d918d8d2fb1e87759995') in 0.060300 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 82.814022 seconds.
+  path: Assets/PACKT/PACKT_Textures/spacecraft_surface/spacecraft_albedo.tga
+  artifactKey: Guid(56148a68198d6814ba708fce5e316f75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PACKT/PACKT_Textures/spacecraft_surface/spacecraft_albedo.tga using Guid(56148a68198d6814ba708fce5e316f75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9390e42b99333f232d82bf6d88c575a0') in 0.013835 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 20.183424 seconds.
+  path: Assets/PACKT/PACKT_Textures/UI/PACKT_flameIcon.png
+  artifactKey: Guid(23f83eaa0d6a23345a54257e9edf872c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PACKT/PACKT_Textures/UI/PACKT_flameIcon.png using Guid(23f83eaa0d6a23345a54257e9edf872c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73e1ef414493a625be3448e7f88aab5b') in 0.022149 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/PACKT/PACKT_Textures/spacecraft_surface/spacecraft_metallic.tga
+  artifactKey: Guid(32f8af78d27fa094ea4fc04b2ce155df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PACKT/PACKT_Textures/spacecraft_surface/spacecraft_metallic.tga using Guid(32f8af78d27fa094ea4fc04b2ce155df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ef7212aa858c6cde657765b039367a8') in 0.014295 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 20.973870 seconds.
+  path: Assets/PACKT/PACKT_Textures/researchStation_ext/number3.png
+  artifactKey: Guid(55efb8c2f32d9f74e84d9898dbfe6253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PACKT/PACKT_Textures/researchStation_ext/number3.png using Guid(55efb8c2f32d9f74e84d9898dbfe6253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a37cacf4a654e42acfe7441b55ae028c') in 0.011354 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 208.261640 seconds.
+  path: Assets/Materials/myastronuat_helmet.mat
+  artifactKey: Guid(1977697df587f554385723c2e99f7840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/myastronuat_helmet.mat using Guid(1977697df587f554385723c2e99f7840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e7714c0518e78b77ae5dba4d1a5254f') in 0.011105 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 20.383474 seconds.
+  path: Assets/Materials/myastronuat_hair.mat
+  artifactKey: Guid(1977697df587f554385723c2e99f7840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/myastronuat_hair.mat using Guid(1977697df587f554385723c2e99f7840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d6ef780470bb701f92ad23b1872b620') in 0.011234 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 82.896572 seconds.
+  path: Assets/PACKT/PACKT_Textures/UI/PACKT_dPad.png
+  artifactKey: Guid(e4877cb0c701950469d60e14e0863516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PACKT/PACKT_Textures/UI/PACKT_dPad.png using Guid(e4877cb0c701950469d60e14e0863516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12853bed796e4c54dece1d2401bcef06') in 0.012977 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PACKT/PACKT_Textures/planet001.png
+  artifactKey: Guid(442427217f2b287499768818f75bf8a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PACKT/PACKT_Textures/planet001.png using Guid(442427217f2b287499768818f75bf8a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a1785ba87b2935d90bb1cefdf7712af') in 0.011383 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 172.293477 seconds.
+  path: Assets/Materials/myastronaut_eye_R.mat
+  artifactKey: Guid(a9ad0b6266768cb48b87173a388336dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/myastronaut_eye_R.mat using Guid(a9ad0b6266768cb48b87173a388336dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccd976b84632aaccb853322f1ebb00f6') in 0.009976 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 9.039134 seconds.
+  path: Assets/Materials/myastronaut_hair.mat
+  artifactKey: Guid(1977697df587f554385723c2e99f7840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/myastronaut_hair.mat using Guid(1977697df587f554385723c2e99f7840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f7fe679f382570f9520daadbf12d39c') in 0.022797 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 3.769462 seconds.
+  path: Assets/Materials/myastronaut.mat
+  artifactKey: Guid(476b96fda72ca6a4abe69ded1e1f1615) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/myastronaut.mat using Guid(476b96fda72ca6a4abe69ded1e1f1615) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da2a2d6819de0aa8b41297bd53c9609d') in 0.020203 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Materials/myastronaut_eye_R 1.mat
+  artifactKey: Guid(bd8b1abd2cc17614883c2fbbd2b2002c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/myastronaut_eye_R 1.mat using Guid(bd8b1abd2cc17614883c2fbbd2b2002c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39b8183149813ba735db7742836a1601') in 0.011255 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 14.791690 seconds.
+  path: Assets/Materials/myastronaut_eye_L.mat
+  artifactKey: Guid(bd8b1abd2cc17614883c2fbbd2b2002c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/myastronaut_eye_L.mat using Guid(bd8b1abd2cc17614883c2fbbd2b2002c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcb4214c63d9f2a9e3a716cd5093f217') in 0.009530 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1325.594216 seconds.
+  path: Assets/PACKT/PACKT_Models/Materials/rock_albedo.mat
+  artifactKey: Guid(1320f91bf16e42943866c3a33f4d8b2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PACKT/PACKT_Models/Materials/rock_albedo.mat using Guid(1320f91bf16e42943866c3a33f4d8b2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e394d703b37ee4ec97caf01e75efa7c6') in 0.021344 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 7.498527 seconds.
+  path: Assets/PACKT/PACKT_Models/Materials/No Name.mat
+  artifactKey: Guid(1724e1617cb833c4a8fb6b84429bf99c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PACKT/PACKT_Models/Materials/No Name.mat using Guid(1724e1617cb833c4a8fb6b84429bf99c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '318bf06874895466b13169a58a0a2bcd') in 0.009988 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 173.860577 seconds.
+  path: Assets/Materials/mystarfield.mat
+  artifactKey: Guid(74f9b88629d902242b104e90e75e6ee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/mystarfield.mat using Guid(74f9b88629d902242b104e90e75e6ee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1de7278324be20059066b699d4f09ac8') in 0.011071 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 150.750008 seconds.
+  path: Assets/PACKT/PACKT_Textures/rover/rover_diffuse.tga
+  artifactKey: Guid(797e423948feb4e4ab2ed84f4ba8bf96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PACKT/PACKT_Textures/rover/rover_diffuse.tga using Guid(797e423948feb4e4ab2ed84f4ba8bf96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e02467861731b2550a9f8b435a8072ce') in 0.011601 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PACKT/PACKT_Textures/spacecraft_surface/spacecraft_ao.tga
+  artifactKey: Guid(503ee12c2e822fd48914f8ddba40cfc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PACKT/PACKT_Textures/spacecraft_surface/spacecraft_ao.tga using Guid(503ee12c2e822fd48914f8ddba40cfc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e971deeb72bae94203e1a29f679b2a1c') in 0.010795 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PACKT/PACKT_Textures/spacecraft_surface/spacecraft_decal.png
+  artifactKey: Guid(a4ab57d8c1412c445b679b6b0624970c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PACKT/PACKT_Textures/spacecraft_surface/spacecraft_decal.png using Guid(a4ab57d8c1412c445b679b6b0624970c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9e12eb095aadd53b3ed72a4924619fa') in 0.016231 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001375 seconds.
+  path: Assets/PACKT/PACKT_Textures/starfield_front.png
+  artifactKey: Guid(e5282ad39e70cc746801785281903ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PACKT/PACKT_Textures/starfield_front.png using Guid(e5282ad39e70cc746801785281903ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d15dd35e177e004d4676d4d9fddc4ad') in 0.013574 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PACKT/PACKT_Textures/strato.png
+  artifactKey: Guid(01cdaf1a268247b4683eb58a9502851b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PACKT/PACKT_Textures/strato.png using Guid(01cdaf1a268247b4683eb58a9502851b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ed5311c9f419a5e1a94eb43875d4c68') in 0.013748 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 90.182603 seconds.
+  path: Assets/PACKT/PACKT_Models/Materials/lab_pod.mat
+  artifactKey: Guid(4ca36e9fafd18a84fa337505d560eaeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PACKT/PACKT_Models/Materials/lab_pod.mat using Guid(4ca36e9fafd18a84fa337505d560eaeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8d3d066a4707acc9385a20d96efdca6') in 0.009162 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.005579 seconds.
+  path: Assets/PACKT/PACKT_Models/Materials/main lab.mat
+  artifactKey: Guid(5b6e7d44d2d7c894ca58d9e224a49c25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PACKT/PACKT_Models/Materials/main lab.mat using Guid(5b6e7d44d2d7c894ca58d9e224a49c25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03af0acd1a07af30076e3a5efc27a40e') in 0.010139 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 123.654775 seconds.
+  path: Assets/Materials/myastronaut_helmet.mat
+  artifactKey: Guid(6fe944a0b4d29ab419b4ffe888a52c3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/myastronaut_helmet.mat using Guid(6fe944a0b4d29ab419b4ffe888a52c3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ddd1f0a8c9b04710a25d771b87f1f23') in 0.009573 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 147.046603 seconds.
+  path: Assets/Materials/myhelmet.mat
+  artifactKey: Guid(6fe944a0b4d29ab419b4ffe888a52c3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/myhelmet.mat using Guid(6fe944a0b4d29ab419b4ffe888a52c3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cbd90864749a33d31aeeee0904938c6') in 0.169744 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 31.215354 seconds.
+  path: Assets/Scenes/Lec01/Lightmap-0_comp_dir.png
+  artifactKey: Guid(a94786f3e2732454cb6bfe1fb366d3fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Lec01/Lightmap-0_comp_dir.png using Guid(a94786f3e2732454cb6bfe1fb366d3fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03d3cf3aa99525d3a80d4f817a080c28') in 0.010589 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 724.325495 seconds.
+  path: Assets/Materials/myspacecraft.mat
+  artifactKey: Guid(0ab55f14b347c9c4b89fee4f92774da8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/myspacecraft.mat using Guid(0ab55f14b347c9c4b89fee4f92774da8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2882caeeab2ed1fdc4e1519f2131c12') in 0.022227 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 25.251224 seconds.
+  path: Assets/Scenes/Lec01/ReflectionProbe-0.exr
+  artifactKey: Guid(8fd1c4b8f69e28a449a4d09bb63cd884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Lec01/ReflectionProbe-0.exr using Guid(8fd1c4b8f69e28a449a4d09bb63cd884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67847802b3b74018f55bb3402fb8a07c') in 0.020453 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 201.891560 seconds.
+  path: Assets/Materials/myspacecraft_decal.mat
+  artifactKey: Guid(5615a10814b1c364c9fce8878327db41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/myspacecraft_decal.mat using Guid(5615a10814b1c364c9fce8878327db41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0009e49cf0b20d1b0042f96f39cb5b63') in 0.010102 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 377.318244 seconds.
+  path: Assets/Scenes/Lec01.unity
+  artifactKey: Guid(e123a245fbc697a49b88ef1c13a7d2c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Lec01.unity using Guid(e123a245fbc697a49b88ef1c13a7d2c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd547bbafd6c2b7b66752995bfd8e5aa0') in 0.000554 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2548.487884 seconds.
+  path: Assets/PACKT/PACKT_Scenes/Chapter4_FINAL.unity
+  artifactKey: Guid(9cb3c2bccadc04c4f9b2da8671d5627d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PACKT/PACKT_Scenes/Chapter4_FINAL.unity using Guid(9cb3c2bccadc04c4f9b2da8671d5627d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63737aa06c347218186cacdab3dc4ca0') in 0.000692 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.981374 seconds.
+  path: Assets/PACKT/PACKT_Scenes/Chapter4_Start.unity
+  artifactKey: Guid(f312cca5b56853f4cb72f82cf7d7cae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PACKT/PACKT_Scenes/Chapter4_Start.unity using Guid(f312cca5b56853f4cb72f82cf7d7cae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71a8ab4300804f592919a6f5c513304c') in 0.000526 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 5.628914 seconds.
+  path: Assets/Scenes/Chapter4_Start.unity
+  artifactKey: Guid(dfac6a8ef1881fb42b6a385e93c6683f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Chapter4_Start.unity using Guid(dfac6a8ef1881fb42b6a385e93c6683f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed3c186006a064e42878cc432ebb93d2') in 0.000446 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 7.030072 seconds.
+  path: Assets/Scenes/Lec02.unity
+  artifactKey: Guid(dfac6a8ef1881fb42b6a385e93c6683f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Lec02.unity using Guid(dfac6a8ef1881fb42b6a385e93c6683f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53eae65381c832c144ccfe8e1d4fe347') in 0.000427 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\shk54\Desktop\Unity\MasteringShader\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\shk54\Desktop\Unity\MasteringShader\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.675 seconds
+Refreshing native plugins compatible for Editor in 2.34 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.680 seconds
+Domain Reload Profiling: 1353ms
+	BeginReloadAssembly (125ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (482ms)
+		LoadAssemblies (314ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (220ms)
+			TypeCache.Refresh (215ms)
+				TypeCache.ScanAssembly (205ms)
+			ScanForSourceGeneratedMonoScriptInfo (2ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (681ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (270ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (49ms)
+			ProcessInitializeOnLoadAttributes (194ms)
+			ProcessInitializeOnLoadMethodAttributes (14ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Shader 'PACKT/unlit_wireframe': fallback shader 'Vertex Colored' not found
+Refreshing native plugins compatible for Editor in 2.05 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3207 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 61 unused Assets / (3.4 MB). Loaded Objects now: 3709.
+Memory consumption went from 137.6 MB to 134.1 MB.
+Total: 3.437900 ms (FindLiveObjects: 0.218900 ms CreateObjectMapping: 0.090200 ms MarkObjects: 2.239600 ms  DeleteObjects: 0.888200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/orbitTrail.cs: 10110efdcfe63599606328c8f5dc1b39 -> aaa50e02d834f55570c9ccc55ff53d2a
+  custom:scripting/monoscript/fileName/alienDrops.cs: 92141a5ef9cd37883681e3af86d91b51 -> 1e2e2421cc8158a583e5cec70ec1f642
+  custom:scripting/monoscript/fileName/bary.cs: 06a34c0ffe311c616df29158b5c8efd0 -> f8f44dce6c1320ebed5e7597e1c84988
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/textAnim.cs: 87297d3d24fc3c7426fefff397988e21 -> 2a0993546192c8ff4d6919a1d7e89a71
+  custom:scripting/monoscript/fileName/characterMover.cs: c0710bf5067f294231651d7d591f3cbf -> deb36823278734b01c10e0f6385b0fca
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/cloudAnim.cs: 6d9b34ca64ec8a0215b5ac78a30c308d -> 50ccba84a27f6114be5e7a569e3f6056
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/cloudAnim_final.cs: 49bb0b7abb9c0ba66618ca2fd2be76db -> 21dd78e5293625bffcfac1f634d86ec3
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/cameraScript.cs: 68d198bfc8e546bbd8c39d8299719c16 -> 7f9e3ed5ec95d5b752e1d3f7f3cdf4dc
+  custom:scripting/monoscript/fileName/controlTwinkle01.cs: e6b684e9856fa125a0c10d7bd41dd12c -> cf5cff20d854d0c9d98817c8ae2a7245
+  custom:scripting/monoscript/fileName/storm.cs: 4f528595223a101c1d1a2918db40a412 -> b2476ed3ded2a5da53db5c61b614bbe0
+  custom:scripting/monoscript/fileName/offsetTexture.cs: 00293bc961aa98b3e38bbe844da821d3 -> d95b5bc08d50e1d060fdd5b5f1a02ec3
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/alienMover.cs: debc5dbdf2f25d3185756447f58c6ac8 -> fd3bbee737ecaa73d834837790d2b092
+  custom:scripting/monoscript/fileName/destHS.cs: 67a8e57d2f31e2c610e8e63190206fd6 -> a0679f875eb1bb16ac3fe5a591be5830
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/controlTwinkle_final.cs: 464fa944638499f339a41a3b37e2077c -> 30027fb9f3aaf60c2f2958816f845bec
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/crateNumbers.cs: ebdb331d3b5a794d8031cf74a1409560 -> fe5f7b97248edfbbfb54041c095ab925
+  custom:scripting/monoscript/fileName/planetSurf.cs: e7fa15da115b461263488ba6ea568a90 -> e3a420f977c86cf19a80a2f7f9d04f0a
+  custom:scripting/monoscript/fileName/burnEffect.cs: 55adb8f18d380c7bd9d50342bff7b00b -> 74788f1b9b14b856f689c27e3a2ffab9
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 495.715602 seconds.
+  path: Assets/Scenes/Lec01
+  artifactKey: Guid(40062aa1d27eea14fbd044dd6373948c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Lec01 using Guid(40062aa1d27eea14fbd044dd6373948c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b61b7ddab52e1821ff8fbae105d7428a') in 0.004848 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.025622 seconds.
+  path: Assets/Scenes/Lec01/LightingData.asset
+  artifactKey: Guid(1efa8c39fdda2004b8bbafb2f7883c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Lec01/LightingData.asset using Guid(1efa8c39fdda2004b8bbafb2f7883c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '049f92ec4a06e81c06970b5ce7d81350') in 0.039256 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\shk54\Desktop\Unity\MasteringShader\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\shk54\Desktop\Unity\MasteringShader\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.559 seconds
+Refreshing native plugins compatible for Editor in 2.07 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.652 seconds
+Domain Reload Profiling: 1210ms
+	BeginReloadAssembly (114ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (387ms)
+		LoadAssemblies (196ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (234ms)
+			TypeCache.Refresh (222ms)
+				TypeCache.ScanAssembly (212ms)
+			ScanForSourceGeneratedMonoScriptInfo (9ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (652ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (263ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (48ms)
+			ProcessInitializeOnLoadAttributes (188ms)
+			ProcessInitializeOnLoadMethodAttributes (14ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Shader 'PACKT/unlit_wireframe': fallback shader 'Vertex Colored' not found
+Refreshing native plugins compatible for Editor in 2.15 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3207 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 61 unused Assets / (3.4 MB). Loaded Objects now: 3712.
+Memory consumption went from 137.6 MB to 134.1 MB.
+Total: 3.453900 ms (FindLiveObjects: 0.231800 ms CreateObjectMapping: 0.090200 ms MarkObjects: 2.239600 ms  DeleteObjects: 0.890900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/orbitTrail.cs: 10110efdcfe63599606328c8f5dc1b39 -> aaa50e02d834f55570c9ccc55ff53d2a
+  custom:scripting/monoscript/fileName/alienDrops.cs: 92141a5ef9cd37883681e3af86d91b51 -> 1e2e2421cc8158a583e5cec70ec1f642
+  custom:scripting/monoscript/fileName/bary.cs: 06a34c0ffe311c616df29158b5c8efd0 -> f8f44dce6c1320ebed5e7597e1c84988
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/textAnim.cs: 87297d3d24fc3c7426fefff397988e21 -> 2a0993546192c8ff4d6919a1d7e89a71
+  custom:scripting/monoscript/fileName/characterMover.cs: c0710bf5067f294231651d7d591f3cbf -> deb36823278734b01c10e0f6385b0fca
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/cloudAnim.cs: 6d9b34ca64ec8a0215b5ac78a30c308d -> 50ccba84a27f6114be5e7a569e3f6056
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/cloudAnim_final.cs: 49bb0b7abb9c0ba66618ca2fd2be76db -> 21dd78e5293625bffcfac1f634d86ec3
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/cameraScript.cs: 68d198bfc8e546bbd8c39d8299719c16 -> 7f9e3ed5ec95d5b752e1d3f7f3cdf4dc
+  custom:scripting/monoscript/fileName/controlTwinkle01.cs: e6b684e9856fa125a0c10d7bd41dd12c -> cf5cff20d854d0c9d98817c8ae2a7245
+  custom:scripting/monoscript/fileName/storm.cs: 4f528595223a101c1d1a2918db40a412 -> b2476ed3ded2a5da53db5c61b614bbe0
+  custom:scripting/monoscript/fileName/offsetTexture.cs: 00293bc961aa98b3e38bbe844da821d3 -> d95b5bc08d50e1d060fdd5b5f1a02ec3
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/alienMover.cs: debc5dbdf2f25d3185756447f58c6ac8 -> fd3bbee737ecaa73d834837790d2b092
+  custom:scripting/monoscript/fileName/destHS.cs: 67a8e57d2f31e2c610e8e63190206fd6 -> a0679f875eb1bb16ac3fe5a591be5830
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/controlTwinkle_final.cs: 464fa944638499f339a41a3b37e2077c -> 30027fb9f3aaf60c2f2958816f845bec
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/crateNumbers.cs: ebdb331d3b5a794d8031cf74a1409560 -> fe5f7b97248edfbbfb54041c095ab925
+  custom:scripting/monoscript/fileName/planetSurf.cs: e7fa15da115b461263488ba6ea568a90 -> e3a420f977c86cf19a80a2f7f9d04f0a
+  custom:scripting/monoscript/fileName/burnEffect.cs: 55adb8f18d380c7bd9d50342bff7b00b -> 74788f1b9b14b856f689c27e3a2ffab9
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 194.546170 seconds.
+  path: Assets/Scenes/Lec02_Profiles
+  artifactKey: Guid(7820413380ce0394084a64369aee30f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Lec02_Profiles using Guid(7820413380ce0394084a64369aee30f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2141a318d696e61d44b812b05b9eb8b') in 0.003059 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 11.047775 seconds.
+  path: Assets/Scenes/Lec02_Profiles/Post-process Volume Profile.asset
+  artifactKey: Guid(0ba1012274672a64aa4153685162850b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Lec02_Profiles/Post-process Volume Profile.asset using Guid(0ba1012274672a64aa4153685162850b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '729b97cac386df6a33c82583579322ee') in 0.009123 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 116.464514 seconds.
+  path: Assets/Scenes/Lec02_Profiles/Post-process Volume Profile.asset
+  artifactKey: Guid(0ba1012274672a64aa4153685162850b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Lec02_Profiles/Post-process Volume Profile.asset using Guid(0ba1012274672a64aa4153685162850b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08f4feffc48777d2726bdefb181f7ac3') in 0.004504 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\shk54\Desktop\Unity\MasteringShader\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\shk54\Desktop\Unity\MasteringShader\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.521 seconds
+Refreshing native plugins compatible for Editor in 1.99 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.607 seconds
+Domain Reload Profiling: 1127ms
+	BeginReloadAssembly (125ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (338ms)
+		LoadAssemblies (197ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (199ms)
+			TypeCache.Refresh (196ms)
+				TypeCache.ScanAssembly (187ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (608ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (278ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (53ms)
+			ProcessInitializeOnLoadAttributes (191ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Shader 'PACKT/unlit_wireframe': fallback shader 'Vertex Colored' not found
+Refreshing native plugins compatible for Editor in 2.24 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3207 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 61 unused Assets / (3.4 MB). Loaded Objects now: 3715.
+Memory consumption went from 137.6 MB to 134.1 MB.
+Total: 3.640200 ms (FindLiveObjects: 0.241900 ms CreateObjectMapping: 0.165200 ms MarkObjects: 2.313400 ms  DeleteObjects: 0.918500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/orbitTrail.cs: 10110efdcfe63599606328c8f5dc1b39 -> aaa50e02d834f55570c9ccc55ff53d2a
+  custom:scripting/monoscript/fileName/alienDrops.cs: 92141a5ef9cd37883681e3af86d91b51 -> 1e2e2421cc8158a583e5cec70ec1f642
+  custom:scripting/monoscript/fileName/bary.cs: 06a34c0ffe311c616df29158b5c8efd0 -> f8f44dce6c1320ebed5e7597e1c84988
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/textAnim.cs: 87297d3d24fc3c7426fefff397988e21 -> 2a0993546192c8ff4d6919a1d7e89a71
+  custom:scripting/monoscript/fileName/characterMover.cs: c0710bf5067f294231651d7d591f3cbf -> deb36823278734b01c10e0f6385b0fca
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/cloudAnim.cs: 6d9b34ca64ec8a0215b5ac78a30c308d -> 50ccba84a27f6114be5e7a569e3f6056
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/cloudAnim_final.cs: 49bb0b7abb9c0ba66618ca2fd2be76db -> 21dd78e5293625bffcfac1f634d86ec3
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/cameraScript.cs: 68d198bfc8e546bbd8c39d8299719c16 -> 7f9e3ed5ec95d5b752e1d3f7f3cdf4dc
+  custom:scripting/monoscript/fileName/controlTwinkle01.cs: e6b684e9856fa125a0c10d7bd41dd12c -> cf5cff20d854d0c9d98817c8ae2a7245
+  custom:scripting/monoscript/fileName/storm.cs: 4f528595223a101c1d1a2918db40a412 -> b2476ed3ded2a5da53db5c61b614bbe0
+  custom:scripting/monoscript/fileName/offsetTexture.cs: 00293bc961aa98b3e38bbe844da821d3 -> d95b5bc08d50e1d060fdd5b5f1a02ec3
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/alienMover.cs: debc5dbdf2f25d3185756447f58c6ac8 -> fd3bbee737ecaa73d834837790d2b092
+  custom:scripting/monoscript/fileName/destHS.cs: 67a8e57d2f31e2c610e8e63190206fd6 -> a0679f875eb1bb16ac3fe5a591be5830
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/controlTwinkle_final.cs: 464fa944638499f339a41a3b37e2077c -> 30027fb9f3aaf60c2f2958816f845bec
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/crateNumbers.cs: ebdb331d3b5a794d8031cf74a1409560 -> fe5f7b97248edfbbfb54041c095ab925
+  custom:scripting/monoscript/fileName/planetSurf.cs: e7fa15da115b461263488ba6ea568a90 -> e3a420f977c86cf19a80a2f7f9d04f0a
+  custom:scripting/monoscript/fileName/burnEffect.cs: 55adb8f18d380c7bd9d50342bff7b00b -> 74788f1b9b14b856f689c27e3a2ffab9
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 209.955339 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b9326e97e2461385864aa44f9e28ada') in 0.009762 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 346.727215 seconds.
+  path: Assets/PACKT/PACKT_Scenes/Chapter4_FINALSettings.lighting
+  artifactKey: Guid(9deb2cff24843cb4191207f648871ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PACKT/PACKT_Scenes/Chapter4_FINALSettings.lighting using Guid(9deb2cff24843cb4191207f648871ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: 'becb93a9b399e5826afaaaa6cb29b837') in 0.000980 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 9.960753 seconds.
+  path: Assets/PACKT/PACKT_Scenes/Chapter4_StartSettings.lighting
+  artifactKey: Guid(4ae436a5bac680040a71de142773a0be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PACKT/PACKT_Scenes/Chapter4_StartSettings.lighting using Guid(4ae436a5bac680040a71de142773a0be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: '1fb2ef91d16a894e615d5fbff78275d0') in 0.000868 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 7.099192 seconds.
+  path: Assets/Scenes/Lec02.unity
+  artifactKey: Guid(dfac6a8ef1881fb42b6a385e93c6683f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Lec02.unity using Guid(dfac6a8ef1881fb42b6a385e93c6683f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15a4cb8f6e0b6af5ea51ce941c0abc41') in 0.000468 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 493.321469 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(311819b64474e1745898e1801d610293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(311819b64474e1745898e1801d610293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7c252525f2c870775dc49f41f211184') in 0.000687 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 12.742228 seconds.
+  path: Assets/Scenes/NewBehaviourScript.cs
+  artifactKey: Guid(edf3cdfef5873f14aa564893c7069be9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/NewBehaviourScript.cs using Guid(edf3cdfef5873f14aa564893c7069be9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5325625906b9710259498f98de74377') in 0.000575 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\shk54\Desktop\Unity\MasteringShader\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\shk54\Desktop\Unity\MasteringShader\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.521 seconds
+Refreshing native plugins compatible for Editor in 2.24 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.605 seconds
+Domain Reload Profiling: 1124ms
+	BeginReloadAssembly (113ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (348ms)
+		LoadAssemblies (181ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (212ms)
+			TypeCache.Refresh (207ms)
+				TypeCache.ScanAssembly (198ms)
+			ScanForSourceGeneratedMonoScriptInfo (2ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (605ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (248ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (57ms)
+			ProcessInitializeOnLoadAttributes (164ms)
+			ProcessInitializeOnLoadMethodAttributes (14ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Shader 'PACKT/unlit_wireframe': fallback shader 'Vertex Colored' not found
+Refreshing native plugins compatible for Editor in 2.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3208 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 61 unused Assets / (3.4 MB). Loaded Objects now: 3719.
+Memory consumption went from 137.6 MB to 134.2 MB.
+Total: 3.545800 ms (FindLiveObjects: 0.246700 ms CreateObjectMapping: 0.103300 ms MarkObjects: 2.211700 ms  DeleteObjects: 0.983100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/orbitTrail.cs: 10110efdcfe63599606328c8f5dc1b39 -> aaa50e02d834f55570c9ccc55ff53d2a
+  custom:scripting/monoscript/fileName/alienDrops.cs: 92141a5ef9cd37883681e3af86d91b51 -> 1e2e2421cc8158a583e5cec70ec1f642
+  custom:scripting/monoscript/fileName/bary.cs: 06a34c0ffe311c616df29158b5c8efd0 -> f8f44dce6c1320ebed5e7597e1c84988
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/textAnim.cs: 87297d3d24fc3c7426fefff397988e21 -> 2a0993546192c8ff4d6919a1d7e89a71
+  custom:scripting/monoscript/fileName/characterMover.cs: c0710bf5067f294231651d7d591f3cbf -> deb36823278734b01c10e0f6385b0fca
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/cloudAnim.cs: 6d9b34ca64ec8a0215b5ac78a30c308d -> 50ccba84a27f6114be5e7a569e3f6056
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/cloudAnim_final.cs: 49bb0b7abb9c0ba66618ca2fd2be76db -> 21dd78e5293625bffcfac1f634d86ec3
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/cameraScript.cs: 68d198bfc8e546bbd8c39d8299719c16 -> 7f9e3ed5ec95d5b752e1d3f7f3cdf4dc
+  custom:scripting/monoscript/fileName/controlTwinkle01.cs: e6b684e9856fa125a0c10d7bd41dd12c -> cf5cff20d854d0c9d98817c8ae2a7245
+  custom:scripting/monoscript/fileName/storm.cs: 4f528595223a101c1d1a2918db40a412 -> b2476ed3ded2a5da53db5c61b614bbe0
+  custom:scripting/monoscript/fileName/offsetTexture.cs: 00293bc961aa98b3e38bbe844da821d3 -> d95b5bc08d50e1d060fdd5b5f1a02ec3
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/alienMover.cs: debc5dbdf2f25d3185756447f58c6ac8 -> fd3bbee737ecaa73d834837790d2b092
+  custom:scripting/monoscript/fileName/destHS.cs: 67a8e57d2f31e2c610e8e63190206fd6 -> a0679f875eb1bb16ac3fe5a591be5830
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/controlTwinkle_final.cs: 464fa944638499f339a41a3b37e2077c -> 30027fb9f3aaf60c2f2958816f845bec
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/crateNumbers.cs: ebdb331d3b5a794d8031cf74a1409560 -> fe5f7b97248edfbbfb54041c095ab925
+  custom:scripting/monoscript/fileName/planetSurf.cs: e7fa15da115b461263488ba6ea568a90 -> e3a420f977c86cf19a80a2f7f9d04f0a
+  custom:scripting/monoscript/fileName/burnEffect.cs: 55adb8f18d380c7bd9d50342bff7b00b -> 74788f1b9b14b856f689c27e3a2ffab9
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 16.394892 seconds.
+  path: Assets/Scenes/Scripts
+  artifactKey: Guid(855e063e2a85a934293183437a75bc52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scripts using Guid(855e063e2a85a934293183437a75bc52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75940f51bedf92e1962c2a7c2955987b') in 0.002742 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\shk54\Desktop\Unity\MasteringShader\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\shk54\Desktop\Unity\MasteringShader\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.499 seconds
+Refreshing native plugins compatible for Editor in 2.02 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.587 seconds
+Domain Reload Profiling: 1084ms
+	BeginReloadAssembly (109ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (333ms)
+		LoadAssemblies (183ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (196ms)
+			TypeCache.Refresh (191ms)
+				TypeCache.ScanAssembly (182ms)
+			ScanForSourceGeneratedMonoScriptInfo (2ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (587ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (255ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (52ms)
+			ProcessInitializeOnLoadAttributes (175ms)
+			ProcessInitializeOnLoadMethodAttributes (14ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Shader 'PACKT/unlit_wireframe': fallback shader 'Vertex Colored' not found
+Refreshing native plugins compatible for Editor in 2.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3208 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 61 unused Assets / (3.4 MB). Loaded Objects now: 3722.
+Memory consumption went from 137.6 MB to 134.2 MB.
+Total: 4.127000 ms (FindLiveObjects: 0.256300 ms CreateObjectMapping: 0.085500 ms MarkObjects: 2.755900 ms  DeleteObjects: 1.027200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/orbitTrail.cs: 10110efdcfe63599606328c8f5dc1b39 -> aaa50e02d834f55570c9ccc55ff53d2a
+  custom:scripting/monoscript/fileName/alienDrops.cs: 92141a5ef9cd37883681e3af86d91b51 -> 1e2e2421cc8158a583e5cec70ec1f642
+  custom:scripting/monoscript/fileName/bary.cs: 06a34c0ffe311c616df29158b5c8efd0 -> f8f44dce6c1320ebed5e7597e1c84988
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/textAnim.cs: 87297d3d24fc3c7426fefff397988e21 -> 2a0993546192c8ff4d6919a1d7e89a71
+  custom:scripting/monoscript/fileName/characterMover.cs: c0710bf5067f294231651d7d591f3cbf -> deb36823278734b01c10e0f6385b0fca
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/cloudAnim.cs: 6d9b34ca64ec8a0215b5ac78a30c308d -> 50ccba84a27f6114be5e7a569e3f6056
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/cloudAnim_final.cs: 49bb0b7abb9c0ba66618ca2fd2be76db -> 21dd78e5293625bffcfac1f634d86ec3
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/cameraScript.cs: 68d198bfc8e546bbd8c39d8299719c16 -> 7f9e3ed5ec95d5b752e1d3f7f3cdf4dc
+  custom:scripting/monoscript/fileName/controlTwinkle01.cs: e6b684e9856fa125a0c10d7bd41dd12c -> cf5cff20d854d0c9d98817c8ae2a7245
+  custom:scripting/monoscript/fileName/storm.cs: 4f528595223a101c1d1a2918db40a412 -> b2476ed3ded2a5da53db5c61b614bbe0
+  custom:scripting/monoscript/fileName/offsetTexture.cs: 00293bc961aa98b3e38bbe844da821d3 -> d95b5bc08d50e1d060fdd5b5f1a02ec3
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/alienMover.cs: debc5dbdf2f25d3185756447f58c6ac8 -> fd3bbee737ecaa73d834837790d2b092
+  custom:scripting/monoscript/fileName/destHS.cs: 67a8e57d2f31e2c610e8e63190206fd6 -> a0679f875eb1bb16ac3fe5a591be5830
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/controlTwinkle_final.cs: 464fa944638499f339a41a3b37e2077c -> 30027fb9f3aaf60c2f2958816f845bec
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/crateNumbers.cs: ebdb331d3b5a794d8031cf74a1409560 -> fe5f7b97248edfbbfb54041c095ab925
+  custom:scripting/monoscript/fileName/planetSurf.cs: e7fa15da115b461263488ba6ea568a90 -> e3a420f977c86cf19a80a2f7f9d04f0a
+  custom:scripting/monoscript/fileName/burnEffect.cs: 55adb8f18d380c7bd9d50342bff7b00b -> 74788f1b9b14b856f689c27e3a2ffab9
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\shk54\Desktop\Unity\MasteringShader\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\shk54\Desktop\Unity\MasteringShader\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.514 seconds
+Refreshing native plugins compatible for Editor in 2.19 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.606 seconds
+Domain Reload Profiling: 1118ms
+	BeginReloadAssembly (108ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (349ms)
+		LoadAssemblies (189ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (206ms)
+			TypeCache.Refresh (202ms)
+				TypeCache.ScanAssembly (192ms)
+			ScanForSourceGeneratedMonoScriptInfo (2ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (606ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (250ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (47ms)
+			ProcessInitializeOnLoadAttributes (173ms)
+			ProcessInitializeOnLoadMethodAttributes (14ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Shader 'PACKT/unlit_wireframe': fallback shader 'Vertex Colored' not found
+Refreshing native plugins compatible for Editor in 2.13 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3208 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (3.4 MB). Loaded Objects now: 3724.
+Memory consumption went from 137.9 MB to 134.4 MB.
+Total: 3.384800 ms (FindLiveObjects: 0.214200 ms CreateObjectMapping: 0.076500 ms MarkObjects: 2.213700 ms  DeleteObjects: 0.878500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/orbitTrail.cs: 10110efdcfe63599606328c8f5dc1b39 -> aaa50e02d834f55570c9ccc55ff53d2a
+  custom:scripting/monoscript/fileName/alienDrops.cs: 92141a5ef9cd37883681e3af86d91b51 -> 1e2e2421cc8158a583e5cec70ec1f642
+  custom:scripting/monoscript/fileName/bary.cs: 06a34c0ffe311c616df29158b5c8efd0 -> f8f44dce6c1320ebed5e7597e1c84988
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/textAnim.cs: 87297d3d24fc3c7426fefff397988e21 -> 2a0993546192c8ff4d6919a1d7e89a71
+  custom:scripting/monoscript/fileName/characterMover.cs: c0710bf5067f294231651d7d591f3cbf -> deb36823278734b01c10e0f6385b0fca
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/cloudAnim.cs: 6d9b34ca64ec8a0215b5ac78a30c308d -> 50ccba84a27f6114be5e7a569e3f6056
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/cloudAnim_final.cs: 49bb0b7abb9c0ba66618ca2fd2be76db -> 21dd78e5293625bffcfac1f634d86ec3
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/cameraScript.cs: 68d198bfc8e546bbd8c39d8299719c16 -> 7f9e3ed5ec95d5b752e1d3f7f3cdf4dc
+  custom:scripting/monoscript/fileName/controlTwinkle01.cs: e6b684e9856fa125a0c10d7bd41dd12c -> cf5cff20d854d0c9d98817c8ae2a7245
+  custom:scripting/monoscript/fileName/storm.cs: 4f528595223a101c1d1a2918db40a412 -> b2476ed3ded2a5da53db5c61b614bbe0
+  custom:scripting/monoscript/fileName/offsetTexture.cs: 00293bc961aa98b3e38bbe844da821d3 -> d95b5bc08d50e1d060fdd5b5f1a02ec3
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/alienMover.cs: debc5dbdf2f25d3185756447f58c6ac8 -> fd3bbee737ecaa73d834837790d2b092
+  custom:scripting/monoscript/fileName/destHS.cs: 67a8e57d2f31e2c610e8e63190206fd6 -> a0679f875eb1bb16ac3fe5a591be5830
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/controlTwinkle_final.cs: 464fa944638499f339a41a3b37e2077c -> 30027fb9f3aaf60c2f2958816f845bec
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/crateNumbers.cs: ebdb331d3b5a794d8031cf74a1409560 -> fe5f7b97248edfbbfb54041c095ab925
+  custom:scripting/monoscript/fileName/planetSurf.cs: e7fa15da115b461263488ba6ea568a90 -> e3a420f977c86cf19a80a2f7f9d04f0a
+  custom:scripting/monoscript/fileName/burnEffect.cs: 55adb8f18d380c7bd9d50342bff7b00b -> 74788f1b9b14b856f689c27e3a2ffab9
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 19.194233 seconds.
+  path: Assets/Scenes/Scripts/MyTestAniimation.cs
+  artifactKey: Guid(22e4f1142786be54fa8c2b27f9f1e460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scripts/MyTestAniimation.cs using Guid(22e4f1142786be54fa8c2b27f9f1e460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c3970824a3fac91b3c260bd8c8b6109') in 0.005243 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\shk54\Desktop\Unity\MasteringShader\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\shk54\Desktop\Unity\MasteringShader\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.509 seconds
+Refreshing native plugins compatible for Editor in 1.91 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.605 seconds
+Domain Reload Profiling: 1113ms
+	BeginReloadAssembly (111ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (335ms)
+		LoadAssemblies (184ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (197ms)
+			TypeCache.Refresh (192ms)
+				TypeCache.ScanAssembly (183ms)
+			ScanForSourceGeneratedMonoScriptInfo (2ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (606ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (257ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (53ms)
+			ProcessInitializeOnLoadAttributes (175ms)
+			ProcessInitializeOnLoadMethodAttributes (15ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Shader 'PACKT/unlit_wireframe': fallback shader 'Vertex Colored' not found
+Refreshing native plugins compatible for Editor in 2.38 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3208 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 61 unused Assets / (3.4 MB). Loaded Objects now: 3728.
+Memory consumption went from 137.6 MB to 134.2 MB.
+Total: 3.619200 ms (FindLiveObjects: 0.237600 ms CreateObjectMapping: 0.111300 ms MarkObjects: 2.250600 ms  DeleteObjects: 1.019000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/orbitTrail.cs: 10110efdcfe63599606328c8f5dc1b39 -> aaa50e02d834f55570c9ccc55ff53d2a
+  custom:scripting/monoscript/fileName/alienDrops.cs: 92141a5ef9cd37883681e3af86d91b51 -> 1e2e2421cc8158a583e5cec70ec1f642
+  custom:scripting/monoscript/fileName/bary.cs: 06a34c0ffe311c616df29158b5c8efd0 -> f8f44dce6c1320ebed5e7597e1c84988
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/textAnim.cs: 87297d3d24fc3c7426fefff397988e21 -> 2a0993546192c8ff4d6919a1d7e89a71
+  custom:scripting/monoscript/fileName/characterMover.cs: c0710bf5067f294231651d7d591f3cbf -> deb36823278734b01c10e0f6385b0fca
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/cloudAnim.cs: 6d9b34ca64ec8a0215b5ac78a30c308d -> 50ccba84a27f6114be5e7a569e3f6056
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/cloudAnim_final.cs: 49bb0b7abb9c0ba66618ca2fd2be76db -> 21dd78e5293625bffcfac1f634d86ec3
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/cameraScript.cs: 68d198bfc8e546bbd8c39d8299719c16 -> 7f9e3ed5ec95d5b752e1d3f7f3cdf4dc
+  custom:scripting/monoscript/fileName/controlTwinkle01.cs: e6b684e9856fa125a0c10d7bd41dd12c -> cf5cff20d854d0c9d98817c8ae2a7245
+  custom:scripting/monoscript/fileName/storm.cs: 4f528595223a101c1d1a2918db40a412 -> b2476ed3ded2a5da53db5c61b614bbe0
+  custom:scripting/monoscript/fileName/offsetTexture.cs: 00293bc961aa98b3e38bbe844da821d3 -> d95b5bc08d50e1d060fdd5b5f1a02ec3
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/alienMover.cs: debc5dbdf2f25d3185756447f58c6ac8 -> fd3bbee737ecaa73d834837790d2b092
+  custom:scripting/monoscript/fileName/destHS.cs: 67a8e57d2f31e2c610e8e63190206fd6 -> a0679f875eb1bb16ac3fe5a591be5830
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/controlTwinkle_final.cs: 464fa944638499f339a41a3b37e2077c -> 30027fb9f3aaf60c2f2958816f845bec
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/crateNumbers.cs: ebdb331d3b5a794d8031cf74a1409560 -> fe5f7b97248edfbbfb54041c095ab925
+  custom:scripting/monoscript/fileName/planetSurf.cs: e7fa15da115b461263488ba6ea568a90 -> e3a420f977c86cf19a80a2f7f9d04f0a
+  custom:scripting/monoscript/fileName/burnEffect.cs: 55adb8f18d380c7bd9d50342bff7b00b -> 74788f1b9b14b856f689c27e3a2ffab9
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3.724398 seconds.
+  path: Assets/Scenes/Scripts/MyTestAniimation.cs
+  artifactKey: Guid(22e4f1142786be54fa8c2b27f9f1e460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scripts/MyTestAniimation.cs using Guid(22e4f1142786be54fa8c2b27f9f1e460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21ce7e81fe828f703efa43bc85506f41') in 0.003356 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 30.801648 seconds.
+  path: Assets/Scenes/Scripts/MyTestAniimation.cs
+  artifactKey: Guid(22e4f1142786be54fa8c2b27f9f1e460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scripts/MyTestAniimation.cs using Guid(22e4f1142786be54fa8c2b27f9f1e460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d198bd96e42aa82dd29873b9b1c571a') in 0.000616 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\shk54\Desktop\Unity\MasteringShader\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\shk54\Desktop\Unity\MasteringShader\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.572 seconds
+Refreshing native plugins compatible for Editor in 2.32 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.660 seconds
+Domain Reload Profiling: 1231ms
+	BeginReloadAssembly (118ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (391ms)
+		LoadAssemblies (215ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (220ms)
+			TypeCache.Refresh (213ms)
+				TypeCache.ScanAssembly (201ms)
+			ScanForSourceGeneratedMonoScriptInfo (2ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (661ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (280ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (62ms)
+			ProcessInitializeOnLoadAttributes (186ms)
+			ProcessInitializeOnLoadMethodAttributes (15ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Shader 'PACKT/unlit_wireframe': fallback shader 'Vertex Colored' not found
+Refreshing native plugins compatible for Editor in 2.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3208 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 61 unused Assets / (3.4 MB). Loaded Objects now: 3731.
+Memory consumption went from 137.6 MB to 134.2 MB.
+Total: 4.717800 ms (FindLiveObjects: 0.291300 ms CreateObjectMapping: 0.080600 ms MarkObjects: 3.175600 ms  DeleteObjects: 1.169600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/orbitTrail.cs: 10110efdcfe63599606328c8f5dc1b39 -> aaa50e02d834f55570c9ccc55ff53d2a
+  custom:scripting/monoscript/fileName/alienDrops.cs: 92141a5ef9cd37883681e3af86d91b51 -> 1e2e2421cc8158a583e5cec70ec1f642
+  custom:scripting/monoscript/fileName/bary.cs: 06a34c0ffe311c616df29158b5c8efd0 -> f8f44dce6c1320ebed5e7597e1c84988
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/textAnim.cs: 87297d3d24fc3c7426fefff397988e21 -> 2a0993546192c8ff4d6919a1d7e89a71
+  custom:scripting/monoscript/fileName/characterMover.cs: c0710bf5067f294231651d7d591f3cbf -> deb36823278734b01c10e0f6385b0fca
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/cloudAnim.cs: 6d9b34ca64ec8a0215b5ac78a30c308d -> 50ccba84a27f6114be5e7a569e3f6056
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/cloudAnim_final.cs: 49bb0b7abb9c0ba66618ca2fd2be76db -> 21dd78e5293625bffcfac1f634d86ec3
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/cameraScript.cs: 68d198bfc8e546bbd8c39d8299719c16 -> 7f9e3ed5ec95d5b752e1d3f7f3cdf4dc
+  custom:scripting/monoscript/fileName/controlTwinkle01.cs: e6b684e9856fa125a0c10d7bd41dd12c -> cf5cff20d854d0c9d98817c8ae2a7245
+  custom:scripting/monoscript/fileName/storm.cs: 4f528595223a101c1d1a2918db40a412 -> b2476ed3ded2a5da53db5c61b614bbe0
+  custom:scripting/monoscript/fileName/offsetTexture.cs: 00293bc961aa98b3e38bbe844da821d3 -> d95b5bc08d50e1d060fdd5b5f1a02ec3
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/alienMover.cs: debc5dbdf2f25d3185756447f58c6ac8 -> fd3bbee737ecaa73d834837790d2b092
+  custom:scripting/monoscript/fileName/destHS.cs: 67a8e57d2f31e2c610e8e63190206fd6 -> a0679f875eb1bb16ac3fe5a591be5830
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/controlTwinkle_final.cs: 464fa944638499f339a41a3b37e2077c -> 30027fb9f3aaf60c2f2958816f845bec
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/crateNumbers.cs: ebdb331d3b5a794d8031cf74a1409560 -> fe5f7b97248edfbbfb54041c095ab925
+  custom:scripting/monoscript/fileName/planetSurf.cs: e7fa15da115b461263488ba6ea568a90 -> e3a420f977c86cf19a80a2f7f9d04f0a
+  custom:scripting/monoscript/fileName/burnEffect.cs: 55adb8f18d380c7bd9d50342bff7b00b -> 74788f1b9b14b856f689c27e3a2ffab9
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 6.182171 seconds.
+  path: Assets/Scenes/Scripts/MyTestAniimation.cs
+  artifactKey: Guid(22e4f1142786be54fa8c2b27f9f1e460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scripts/MyTestAniimation.cs using Guid(22e4f1142786be54fa8c2b27f9f1e460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '344e7af5cf2fa5ddac7df3c245bb6ab2') in 0.003469 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.215364 seconds.
+  path: Assets/Scenes/Scripts/MyTestAnimation.cs
+  artifactKey: Guid(22e4f1142786be54fa8c2b27f9f1e460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scripts/MyTestAnimation.cs using Guid(22e4f1142786be54fa8c2b27f9f1e460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b73e04a947e6a9e8fbeed51b20d336a') in 0.000417 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\shk54\Desktop\Unity\MasteringShader\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\shk54\Desktop\Unity\MasteringShader\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.508 seconds
+Refreshing native plugins compatible for Editor in 2.14 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.622 seconds
+Domain Reload Profiling: 1129ms
+	BeginReloadAssembly (117ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (333ms)
+		LoadAssemblies (194ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (187ms)
+			TypeCache.Refresh (183ms)
+				TypeCache.ScanAssembly (174ms)
+			ScanForSourceGeneratedMonoScriptInfo (2ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (623ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (266ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (51ms)
+			ProcessInitializeOnLoadAttributes (186ms)
+			ProcessInitializeOnLoadMethodAttributes (14ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Shader 'PACKT/unlit_wireframe': fallback shader 'Vertex Colored' not found
+Refreshing native plugins compatible for Editor in 2.33 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3208 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 61 unused Assets / (3.4 MB). Loaded Objects now: 3734.
+Memory consumption went from 137.6 MB to 134.2 MB.
+Total: 3.694700 ms (FindLiveObjects: 0.247400 ms CreateObjectMapping: 0.170200 ms MarkObjects: 2.343400 ms  DeleteObjects: 0.932600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/orbitTrail.cs: 10110efdcfe63599606328c8f5dc1b39 -> aaa50e02d834f55570c9ccc55ff53d2a
+  custom:scripting/monoscript/fileName/alienDrops.cs: 92141a5ef9cd37883681e3af86d91b51 -> 1e2e2421cc8158a583e5cec70ec1f642
+  custom:scripting/monoscript/fileName/bary.cs: 06a34c0ffe311c616df29158b5c8efd0 -> f8f44dce6c1320ebed5e7597e1c84988
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/textAnim.cs: 87297d3d24fc3c7426fefff397988e21 -> 2a0993546192c8ff4d6919a1d7e89a71
+  custom:scripting/monoscript/fileName/characterMover.cs: c0710bf5067f294231651d7d591f3cbf -> deb36823278734b01c10e0f6385b0fca
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/cloudAnim.cs: 6d9b34ca64ec8a0215b5ac78a30c308d -> 50ccba84a27f6114be5e7a569e3f6056
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/cloudAnim_final.cs: 49bb0b7abb9c0ba66618ca2fd2be76db -> 21dd78e5293625bffcfac1f634d86ec3
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/cameraScript.cs: 68d198bfc8e546bbd8c39d8299719c16 -> 7f9e3ed5ec95d5b752e1d3f7f3cdf4dc
+  custom:scripting/monoscript/fileName/controlTwinkle01.cs: e6b684e9856fa125a0c10d7bd41dd12c -> cf5cff20d854d0c9d98817c8ae2a7245
+  custom:scripting/monoscript/fileName/storm.cs: 4f528595223a101c1d1a2918db40a412 -> b2476ed3ded2a5da53db5c61b614bbe0
+  custom:scripting/monoscript/fileName/offsetTexture.cs: 00293bc961aa98b3e38bbe844da821d3 -> d95b5bc08d50e1d060fdd5b5f1a02ec3
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/alienMover.cs: debc5dbdf2f25d3185756447f58c6ac8 -> fd3bbee737ecaa73d834837790d2b092
+  custom:scripting/monoscript/fileName/destHS.cs: 67a8e57d2f31e2c610e8e63190206fd6 -> a0679f875eb1bb16ac3fe5a591be5830
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/controlTwinkle_final.cs: 464fa944638499f339a41a3b37e2077c -> 30027fb9f3aaf60c2f2958816f845bec
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/crateNumbers.cs: ebdb331d3b5a794d8031cf74a1409560 -> fe5f7b97248edfbbfb54041c095ab925
+  custom:scripting/monoscript/fileName/planetSurf.cs: e7fa15da115b461263488ba6ea568a90 -> e3a420f977c86cf19a80a2f7f9d04f0a
+  custom:scripting/monoscript/fileName/burnEffect.cs: 55adb8f18d380c7bd9d50342bff7b00b -> 74788f1b9b14b856f689c27e3a2ffab9
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 4.078627 seconds.
+  path: Assets/Scenes/Scripts/MyTestAnimation.cs
+  artifactKey: Guid(22e4f1142786be54fa8c2b27f9f1e460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scripts/MyTestAnimation.cs using Guid(22e4f1142786be54fa8c2b27f9f1e460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dbbcf5b8023afcd427bcbd0cc46f66b') in 0.003331 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\shk54\Desktop\Unity\MasteringShader\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\shk54\Desktop\Unity\MasteringShader\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.560 seconds
+Refreshing native plugins compatible for Editor in 2.40 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.694 seconds
+Domain Reload Profiling: 1252ms
+	BeginReloadAssembly (114ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (386ms)
+		LoadAssemblies (222ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (212ms)
+			TypeCache.Refresh (206ms)
+				TypeCache.ScanAssembly (194ms)
+			ScanForSourceGeneratedMonoScriptInfo (2ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (694ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (291ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (54ms)
+			ProcessInitializeOnLoadAttributes (202ms)
+			ProcessInitializeOnLoadMethodAttributes (18ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Shader 'PACKT/unlit_wireframe': fallback shader 'Vertex Colored' not found
+Refreshing native plugins compatible for Editor in 2.40 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3208 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 61 unused Assets / (3.4 MB). Loaded Objects now: 3737.
+Memory consumption went from 137.6 MB to 134.2 MB.
+Total: 3.543500 ms (FindLiveObjects: 0.324400 ms CreateObjectMapping: 0.093800 ms MarkObjects: 2.168900 ms  DeleteObjects: 0.955600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/orbitTrail.cs: 10110efdcfe63599606328c8f5dc1b39 -> aaa50e02d834f55570c9ccc55ff53d2a
+  custom:scripting/monoscript/fileName/alienDrops.cs: 92141a5ef9cd37883681e3af86d91b51 -> 1e2e2421cc8158a583e5cec70ec1f642
+  custom:scripting/monoscript/fileName/bary.cs: 06a34c0ffe311c616df29158b5c8efd0 -> f8f44dce6c1320ebed5e7597e1c84988
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/textAnim.cs: 87297d3d24fc3c7426fefff397988e21 -> 2a0993546192c8ff4d6919a1d7e89a71
+  custom:scripting/monoscript/fileName/characterMover.cs: c0710bf5067f294231651d7d591f3cbf -> deb36823278734b01c10e0f6385b0fca
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/cloudAnim.cs: 6d9b34ca64ec8a0215b5ac78a30c308d -> 50ccba84a27f6114be5e7a569e3f6056
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/cloudAnim_final.cs: 49bb0b7abb9c0ba66618ca2fd2be76db -> 21dd78e5293625bffcfac1f634d86ec3
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/cameraScript.cs: 68d198bfc8e546bbd8c39d8299719c16 -> 7f9e3ed5ec95d5b752e1d3f7f3cdf4dc
+  custom:scripting/monoscript/fileName/controlTwinkle01.cs: e6b684e9856fa125a0c10d7bd41dd12c -> cf5cff20d854d0c9d98817c8ae2a7245
+  custom:scripting/monoscript/fileName/storm.cs: 4f528595223a101c1d1a2918db40a412 -> b2476ed3ded2a5da53db5c61b614bbe0
+  custom:scripting/monoscript/fileName/offsetTexture.cs: 00293bc961aa98b3e38bbe844da821d3 -> d95b5bc08d50e1d060fdd5b5f1a02ec3
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/alienMover.cs: debc5dbdf2f25d3185756447f58c6ac8 -> fd3bbee737ecaa73d834837790d2b092
+  custom:scripting/monoscript/fileName/destHS.cs: 67a8e57d2f31e2c610e8e63190206fd6 -> a0679f875eb1bb16ac3fe5a591be5830
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/controlTwinkle_final.cs: 464fa944638499f339a41a3b37e2077c -> 30027fb9f3aaf60c2f2958816f845bec
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/crateNumbers.cs: ebdb331d3b5a794d8031cf74a1409560 -> fe5f7b97248edfbbfb54041c095ab925
+  custom:scripting/monoscript/fileName/planetSurf.cs: e7fa15da115b461263488ba6ea568a90 -> e3a420f977c86cf19a80a2f7f9d04f0a
+  custom:scripting/monoscript/fileName/burnEffect.cs: 55adb8f18d380c7bd9d50342bff7b00b -> 74788f1b9b14b856f689c27e3a2ffab9
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\shk54\Desktop\Unity\MasteringShader\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\shk54\Desktop\Unity\MasteringShader\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.501 seconds
+Refreshing native plugins compatible for Editor in 2.02 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.618 seconds
+Domain Reload Profiling: 1117ms
+	BeginReloadAssembly (112ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (332ms)
+		LoadAssemblies (187ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (194ms)
+			TypeCache.Refresh (191ms)
+				TypeCache.ScanAssembly (181ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (618ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (273ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (53ms)
+			ProcessInitializeOnLoadAttributes (188ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Shader 'PACKT/unlit_wireframe': fallback shader 'Vertex Colored' not found
+Refreshing native plugins compatible for Editor in 2.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3209 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 61 unused Assets / (3.4 MB). Loaded Objects now: 3740.
+Memory consumption went from 137.9 MB to 134.4 MB.
+Total: 4.041200 ms (FindLiveObjects: 0.242900 ms CreateObjectMapping: 0.159600 ms MarkObjects: 2.616500 ms  DeleteObjects: 1.021100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/orbitTrail.cs: 10110efdcfe63599606328c8f5dc1b39 -> aaa50e02d834f55570c9ccc55ff53d2a
+  custom:scripting/monoscript/fileName/alienDrops.cs: 92141a5ef9cd37883681e3af86d91b51 -> 1e2e2421cc8158a583e5cec70ec1f642
+  custom:scripting/monoscript/fileName/bary.cs: 06a34c0ffe311c616df29158b5c8efd0 -> f8f44dce6c1320ebed5e7597e1c84988
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/textAnim.cs: 87297d3d24fc3c7426fefff397988e21 -> 2a0993546192c8ff4d6919a1d7e89a71
+  custom:scripting/monoscript/fileName/characterMover.cs: c0710bf5067f294231651d7d591f3cbf -> deb36823278734b01c10e0f6385b0fca
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/cloudAnim.cs: 6d9b34ca64ec8a0215b5ac78a30c308d -> 50ccba84a27f6114be5e7a569e3f6056
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/cloudAnim_final.cs: 49bb0b7abb9c0ba66618ca2fd2be76db -> 21dd78e5293625bffcfac1f634d86ec3
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/cameraScript.cs: 68d198bfc8e546bbd8c39d8299719c16 -> 7f9e3ed5ec95d5b752e1d3f7f3cdf4dc
+  custom:scripting/monoscript/fileName/controlTwinkle01.cs: e6b684e9856fa125a0c10d7bd41dd12c -> cf5cff20d854d0c9d98817c8ae2a7245
+  custom:scripting/monoscript/fileName/storm.cs: 4f528595223a101c1d1a2918db40a412 -> b2476ed3ded2a5da53db5c61b614bbe0
+  custom:scripting/monoscript/fileName/offsetTexture.cs: 00293bc961aa98b3e38bbe844da821d3 -> d95b5bc08d50e1d060fdd5b5f1a02ec3
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/alienMover.cs: debc5dbdf2f25d3185756447f58c6ac8 -> fd3bbee737ecaa73d834837790d2b092
+  custom:scripting/monoscript/fileName/destHS.cs: 67a8e57d2f31e2c610e8e63190206fd6 -> a0679f875eb1bb16ac3fe5a591be5830
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/controlTwinkle_final.cs: 464fa944638499f339a41a3b37e2077c -> 30027fb9f3aaf60c2f2958816f845bec
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/crateNumbers.cs: ebdb331d3b5a794d8031cf74a1409560 -> fe5f7b97248edfbbfb54041c095ab925
+  custom:scripting/monoscript/fileName/planetSurf.cs: e7fa15da115b461263488ba6ea568a90 -> e3a420f977c86cf19a80a2f7f9d04f0a
+  custom:scripting/monoscript/fileName/burnEffect.cs: 55adb8f18d380c7bd9d50342bff7b00b -> 74788f1b9b14b856f689c27e3a2ffab9
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\shk54\Desktop\Unity\MasteringShader\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\shk54\Desktop\Unity\MasteringShader\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.511 seconds
+Refreshing native plugins compatible for Editor in 1.90 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.631 seconds
+Domain Reload Profiling: 1141ms
+	BeginReloadAssembly (111ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (343ms)
+		LoadAssemblies (192ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (197ms)
+			TypeCache.Refresh (193ms)
+				TypeCache.ScanAssembly (181ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (631ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (285ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (54ms)
+			ProcessInitializeOnLoadAttributes (199ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Shader 'PACKT/unlit_wireframe': fallback shader 'Vertex Colored' not found
+Refreshing native plugins compatible for Editor in 2.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3209 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 61 unused Assets / (3.4 MB). Loaded Objects now: 3743.
+Memory consumption went from 138.0 MB to 134.5 MB.
+Total: 4.172900 ms (FindLiveObjects: 0.294100 ms CreateObjectMapping: 0.190200 ms MarkObjects: 2.443800 ms  DeleteObjects: 1.242900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/orbitTrail.cs: 10110efdcfe63599606328c8f5dc1b39 -> aaa50e02d834f55570c9ccc55ff53d2a
+  custom:scripting/monoscript/fileName/alienDrops.cs: 92141a5ef9cd37883681e3af86d91b51 -> 1e2e2421cc8158a583e5cec70ec1f642
+  custom:scripting/monoscript/fileName/bary.cs: 06a34c0ffe311c616df29158b5c8efd0 -> f8f44dce6c1320ebed5e7597e1c84988
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/textAnim.cs: 87297d3d24fc3c7426fefff397988e21 -> 2a0993546192c8ff4d6919a1d7e89a71
+  custom:scripting/monoscript/fileName/characterMover.cs: c0710bf5067f294231651d7d591f3cbf -> deb36823278734b01c10e0f6385b0fca
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/cloudAnim.cs: 6d9b34ca64ec8a0215b5ac78a30c308d -> 50ccba84a27f6114be5e7a569e3f6056
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/cloudAnim_final.cs: 49bb0b7abb9c0ba66618ca2fd2be76db -> 21dd78e5293625bffcfac1f634d86ec3
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/cameraScript.cs: 68d198bfc8e546bbd8c39d8299719c16 -> 7f9e3ed5ec95d5b752e1d3f7f3cdf4dc
+  custom:scripting/monoscript/fileName/controlTwinkle01.cs: e6b684e9856fa125a0c10d7bd41dd12c -> cf5cff20d854d0c9d98817c8ae2a7245
+  custom:scripting/monoscript/fileName/storm.cs: 4f528595223a101c1d1a2918db40a412 -> b2476ed3ded2a5da53db5c61b614bbe0
+  custom:scripting/monoscript/fileName/offsetTexture.cs: 00293bc961aa98b3e38bbe844da821d3 -> d95b5bc08d50e1d060fdd5b5f1a02ec3
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/alienMover.cs: debc5dbdf2f25d3185756447f58c6ac8 -> fd3bbee737ecaa73d834837790d2b092
+  custom:scripting/monoscript/fileName/destHS.cs: 67a8e57d2f31e2c610e8e63190206fd6 -> a0679f875eb1bb16ac3fe5a591be5830
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/controlTwinkle_final.cs: 464fa944638499f339a41a3b37e2077c -> 30027fb9f3aaf60c2f2958816f845bec
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/crateNumbers.cs: ebdb331d3b5a794d8031cf74a1409560 -> fe5f7b97248edfbbfb54041c095ab925
+  custom:scripting/monoscript/fileName/planetSurf.cs: e7fa15da115b461263488ba6ea568a90 -> e3a420f977c86cf19a80a2f7f9d04f0a
+  custom:scripting/monoscript/fileName/burnEffect.cs: 55adb8f18d380c7bd9d50342bff7b00b -> 74788f1b9b14b856f689c27e3a2ffab9
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\shk54\Desktop\Unity\MasteringShader\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\shk54\Desktop\Unity\MasteringShader\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.565 seconds
+Refreshing native plugins compatible for Editor in 2.02 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.660 seconds
+Domain Reload Profiling: 1224ms
+	BeginReloadAssembly (116ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (386ms)
+		LoadAssemblies (220ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (218ms)
+			TypeCache.Refresh (213ms)
+				TypeCache.ScanAssembly (202ms)
+			ScanForSourceGeneratedMonoScriptInfo (2ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (660ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (291ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (58ms)
+			ProcessInitializeOnLoadAttributes (205ms)
+			ProcessInitializeOnLoadMethodAttributes (13ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Shader 'PACKT/unlit_wireframe': fallback shader 'Vertex Colored' not found
+Refreshing native plugins compatible for Editor in 3.16 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3209 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 61 unused Assets / (3.4 MB). Loaded Objects now: 3746.
+Memory consumption went from 138.0 MB to 134.5 MB.
+Total: 3.596600 ms (FindLiveObjects: 0.219800 ms CreateObjectMapping: 0.089700 ms MarkObjects: 2.268400 ms  DeleteObjects: 1.017700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/orbitTrail.cs: 10110efdcfe63599606328c8f5dc1b39 -> aaa50e02d834f55570c9ccc55ff53d2a
+  custom:scripting/monoscript/fileName/alienDrops.cs: 92141a5ef9cd37883681e3af86d91b51 -> 1e2e2421cc8158a583e5cec70ec1f642
+  custom:scripting/monoscript/fileName/bary.cs: 06a34c0ffe311c616df29158b5c8efd0 -> f8f44dce6c1320ebed5e7597e1c84988
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/textAnim.cs: 87297d3d24fc3c7426fefff397988e21 -> 2a0993546192c8ff4d6919a1d7e89a71
+  custom:scripting/monoscript/fileName/characterMover.cs: c0710bf5067f294231651d7d591f3cbf -> deb36823278734b01c10e0f6385b0fca
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/cloudAnim.cs: 6d9b34ca64ec8a0215b5ac78a30c308d -> 50ccba84a27f6114be5e7a569e3f6056
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/cloudAnim_final.cs: 49bb0b7abb9c0ba66618ca2fd2be76db -> 21dd78e5293625bffcfac1f634d86ec3
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/cameraScript.cs: 68d198bfc8e546bbd8c39d8299719c16 -> 7f9e3ed5ec95d5b752e1d3f7f3cdf4dc
+  custom:scripting/monoscript/fileName/controlTwinkle01.cs: e6b684e9856fa125a0c10d7bd41dd12c -> cf5cff20d854d0c9d98817c8ae2a7245
+  custom:scripting/monoscript/fileName/storm.cs: 4f528595223a101c1d1a2918db40a412 -> b2476ed3ded2a5da53db5c61b614bbe0
+  custom:scripting/monoscript/fileName/offsetTexture.cs: 00293bc961aa98b3e38bbe844da821d3 -> d95b5bc08d50e1d060fdd5b5f1a02ec3
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/alienMover.cs: debc5dbdf2f25d3185756447f58c6ac8 -> fd3bbee737ecaa73d834837790d2b092
+  custom:scripting/monoscript/fileName/destHS.cs: 67a8e57d2f31e2c610e8e63190206fd6 -> a0679f875eb1bb16ac3fe5a591be5830
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/controlTwinkle_final.cs: 464fa944638499f339a41a3b37e2077c -> 30027fb9f3aaf60c2f2958816f845bec
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/crateNumbers.cs: ebdb331d3b5a794d8031cf74a1409560 -> fe5f7b97248edfbbfb54041c095ab925
+  custom:scripting/monoscript/fileName/planetSurf.cs: e7fa15da115b461263488ba6ea568a90 -> e3a420f977c86cf19a80a2f7f9d04f0a
+  custom:scripting/monoscript/fileName/burnEffect.cs: 55adb8f18d380c7bd9d50342bff7b00b -> 74788f1b9b14b856f689c27e3a2ffab9
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\shk54\Desktop\Unity\MasteringShader\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\shk54\Desktop\Unity\MasteringShader\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.510 seconds
+Refreshing native plugins compatible for Editor in 2.19 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.629 seconds
+Domain Reload Profiling: 1138ms
+	BeginReloadAssembly (109ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (343ms)
+		LoadAssemblies (187ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (202ms)
+			TypeCache.Refresh (199ms)
+				TypeCache.ScanAssembly (189ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (630ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (281ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (52ms)
+			ProcessInitializeOnLoadAttributes (199ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Shader 'PACKT/unlit_wireframe': fallback shader 'Vertex Colored' not found
+Refreshing native plugins compatible for Editor in 2.13 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3209 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 61 unused Assets / (3.4 MB). Loaded Objects now: 3749.
+Memory consumption went from 138.0 MB to 134.5 MB.
+Total: 4.238600 ms (FindLiveObjects: 0.278200 ms CreateObjectMapping: 0.093900 ms MarkObjects: 2.750900 ms  DeleteObjects: 1.114700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/orbitTrail.cs: 10110efdcfe63599606328c8f5dc1b39 -> aaa50e02d834f55570c9ccc55ff53d2a
+  custom:scripting/monoscript/fileName/alienDrops.cs: 92141a5ef9cd37883681e3af86d91b51 -> 1e2e2421cc8158a583e5cec70ec1f642
+  custom:scripting/monoscript/fileName/bary.cs: 06a34c0ffe311c616df29158b5c8efd0 -> f8f44dce6c1320ebed5e7597e1c84988
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/textAnim.cs: 87297d3d24fc3c7426fefff397988e21 -> 2a0993546192c8ff4d6919a1d7e89a71
+  custom:scripting/monoscript/fileName/characterMover.cs: c0710bf5067f294231651d7d591f3cbf -> deb36823278734b01c10e0f6385b0fca
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/cloudAnim.cs: 6d9b34ca64ec8a0215b5ac78a30c308d -> 50ccba84a27f6114be5e7a569e3f6056
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/cloudAnim_final.cs: 49bb0b7abb9c0ba66618ca2fd2be76db -> 21dd78e5293625bffcfac1f634d86ec3
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/cameraScript.cs: 68d198bfc8e546bbd8c39d8299719c16 -> 7f9e3ed5ec95d5b752e1d3f7f3cdf4dc
+  custom:scripting/monoscript/fileName/controlTwinkle01.cs: e6b684e9856fa125a0c10d7bd41dd12c -> cf5cff20d854d0c9d98817c8ae2a7245
+  custom:scripting/monoscript/fileName/storm.cs: 4f528595223a101c1d1a2918db40a412 -> b2476ed3ded2a5da53db5c61b614bbe0
+  custom:scripting/monoscript/fileName/offsetTexture.cs: 00293bc961aa98b3e38bbe844da821d3 -> d95b5bc08d50e1d060fdd5b5f1a02ec3
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/alienMover.cs: debc5dbdf2f25d3185756447f58c6ac8 -> fd3bbee737ecaa73d834837790d2b092
+  custom:scripting/monoscript/fileName/destHS.cs: 67a8e57d2f31e2c610e8e63190206fd6 -> a0679f875eb1bb16ac3fe5a591be5830
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/controlTwinkle_final.cs: 464fa944638499f339a41a3b37e2077c -> 30027fb9f3aaf60c2f2958816f845bec
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/crateNumbers.cs: ebdb331d3b5a794d8031cf74a1409560 -> fe5f7b97248edfbbfb54041c095ab925
+  custom:scripting/monoscript/fileName/planetSurf.cs: e7fa15da115b461263488ba6ea568a90 -> e3a420f977c86cf19a80a2f7f9d04f0a
+  custom:scripting/monoscript/fileName/burnEffect.cs: 55adb8f18d380c7bd9d50342bff7b00b -> 74788f1b9b14b856f689c27e3a2ffab9
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\shk54\Desktop\Unity\MasteringShader\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\shk54\Desktop\Unity\MasteringShader\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.526 seconds
+Refreshing native plugins compatible for Editor in 1.92 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.622 seconds
+Domain Reload Profiling: 1147ms
+	BeginReloadAssembly (116ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (349ms)
+		LoadAssemblies (200ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (195ms)
+			TypeCache.Refresh (190ms)
+				TypeCache.ScanAssembly (181ms)
+			ScanForSourceGeneratedMonoScriptInfo (2ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (623ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (265ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (60ms)
+			ProcessInitializeOnLoadAttributes (173ms)
+			ProcessInitializeOnLoadMethodAttributes (15ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Shader 'PACKT/unlit_wireframe': fallback shader 'Vertex Colored' not found
+Refreshing native plugins compatible for Editor in 2.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3209 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 61 unused Assets / (3.4 MB). Loaded Objects now: 3752.
+Memory consumption went from 138.0 MB to 134.5 MB.
+Total: 3.708300 ms (FindLiveObjects: 0.251800 ms CreateObjectMapping: 0.091000 ms MarkObjects: 2.212500 ms  DeleteObjects: 1.151700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/orbitTrail.cs: 10110efdcfe63599606328c8f5dc1b39 -> aaa50e02d834f55570c9ccc55ff53d2a
+  custom:scripting/monoscript/fileName/alienDrops.cs: 92141a5ef9cd37883681e3af86d91b51 -> 1e2e2421cc8158a583e5cec70ec1f642
+  custom:scripting/monoscript/fileName/bary.cs: 06a34c0ffe311c616df29158b5c8efd0 -> f8f44dce6c1320ebed5e7597e1c84988
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/textAnim.cs: 87297d3d24fc3c7426fefff397988e21 -> 2a0993546192c8ff4d6919a1d7e89a71
+  custom:scripting/monoscript/fileName/characterMover.cs: c0710bf5067f294231651d7d591f3cbf -> deb36823278734b01c10e0f6385b0fca
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/cloudAnim.cs: 6d9b34ca64ec8a0215b5ac78a30c308d -> 50ccba84a27f6114be5e7a569e3f6056
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/cloudAnim_final.cs: 49bb0b7abb9c0ba66618ca2fd2be76db -> 21dd78e5293625bffcfac1f634d86ec3
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/cameraScript.cs: 68d198bfc8e546bbd8c39d8299719c16 -> 7f9e3ed5ec95d5b752e1d3f7f3cdf4dc
+  custom:scripting/monoscript/fileName/controlTwinkle01.cs: e6b684e9856fa125a0c10d7bd41dd12c -> cf5cff20d854d0c9d98817c8ae2a7245
+  custom:scripting/monoscript/fileName/storm.cs: 4f528595223a101c1d1a2918db40a412 -> b2476ed3ded2a5da53db5c61b614bbe0
+  custom:scripting/monoscript/fileName/offsetTexture.cs: 00293bc961aa98b3e38bbe844da821d3 -> d95b5bc08d50e1d060fdd5b5f1a02ec3
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/alienMover.cs: debc5dbdf2f25d3185756447f58c6ac8 -> fd3bbee737ecaa73d834837790d2b092
+  custom:scripting/monoscript/fileName/destHS.cs: 67a8e57d2f31e2c610e8e63190206fd6 -> a0679f875eb1bb16ac3fe5a591be5830
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/controlTwinkle_final.cs: 464fa944638499f339a41a3b37e2077c -> 30027fb9f3aaf60c2f2958816f845bec
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/crateNumbers.cs: ebdb331d3b5a794d8031cf74a1409560 -> fe5f7b97248edfbbfb54041c095ab925
+  custom:scripting/monoscript/fileName/planetSurf.cs: e7fa15da115b461263488ba6ea568a90 -> e3a420f977c86cf19a80a2f7f9d04f0a
+  custom:scripting/monoscript/fileName/burnEffect.cs: 55adb8f18d380c7bd9d50342bff7b00b -> 74788f1b9b14b856f689c27e3a2ffab9
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\shk54\Desktop\Unity\MasteringShader\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\shk54\Desktop\Unity\MasteringShader\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.495 seconds
+Refreshing native plugins compatible for Editor in 2.21 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.626 seconds
+Domain Reload Profiling: 1120ms
+	BeginReloadAssembly (107ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (334ms)
+		LoadAssemblies (183ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (194ms)
+			TypeCache.Refresh (189ms)
+				TypeCache.ScanAssembly (178ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (626ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (288ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (55ms)
+			ProcessInitializeOnLoadAttributes (200ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Shader 'PACKT/unlit_wireframe': fallback shader 'Vertex Colored' not found
+Refreshing native plugins compatible for Editor in 2.40 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3209 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 61 unused Assets / (3.4 MB). Loaded Objects now: 3755.
+Memory consumption went from 138.0 MB to 134.5 MB.
+Total: 4.321200 ms (FindLiveObjects: 0.247300 ms CreateObjectMapping: 0.195800 ms MarkObjects: 2.552100 ms  DeleteObjects: 1.324900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/orbitTrail.cs: 10110efdcfe63599606328c8f5dc1b39 -> aaa50e02d834f55570c9ccc55ff53d2a
+  custom:scripting/monoscript/fileName/alienDrops.cs: 92141a5ef9cd37883681e3af86d91b51 -> 1e2e2421cc8158a583e5cec70ec1f642
+  custom:scripting/monoscript/fileName/bary.cs: 06a34c0ffe311c616df29158b5c8efd0 -> f8f44dce6c1320ebed5e7597e1c84988
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/textAnim.cs: 87297d3d24fc3c7426fefff397988e21 -> 2a0993546192c8ff4d6919a1d7e89a71
+  custom:scripting/monoscript/fileName/characterMover.cs: c0710bf5067f294231651d7d591f3cbf -> deb36823278734b01c10e0f6385b0fca
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/cloudAnim.cs: 6d9b34ca64ec8a0215b5ac78a30c308d -> 50ccba84a27f6114be5e7a569e3f6056
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/cloudAnim_final.cs: 49bb0b7abb9c0ba66618ca2fd2be76db -> 21dd78e5293625bffcfac1f634d86ec3
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/cameraScript.cs: 68d198bfc8e546bbd8c39d8299719c16 -> 7f9e3ed5ec95d5b752e1d3f7f3cdf4dc
+  custom:scripting/monoscript/fileName/controlTwinkle01.cs: e6b684e9856fa125a0c10d7bd41dd12c -> cf5cff20d854d0c9d98817c8ae2a7245
+  custom:scripting/monoscript/fileName/storm.cs: 4f528595223a101c1d1a2918db40a412 -> b2476ed3ded2a5da53db5c61b614bbe0
+  custom:scripting/monoscript/fileName/offsetTexture.cs: 00293bc961aa98b3e38bbe844da821d3 -> d95b5bc08d50e1d060fdd5b5f1a02ec3
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/alienMover.cs: debc5dbdf2f25d3185756447f58c6ac8 -> fd3bbee737ecaa73d834837790d2b092
+  custom:scripting/monoscript/fileName/destHS.cs: 67a8e57d2f31e2c610e8e63190206fd6 -> a0679f875eb1bb16ac3fe5a591be5830
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/controlTwinkle_final.cs: 464fa944638499f339a41a3b37e2077c -> 30027fb9f3aaf60c2f2958816f845bec
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/crateNumbers.cs: ebdb331d3b5a794d8031cf74a1409560 -> fe5f7b97248edfbbfb54041c095ab925
+  custom:scripting/monoscript/fileName/planetSurf.cs: e7fa15da115b461263488ba6ea568a90 -> e3a420f977c86cf19a80a2f7f9d04f0a
+  custom:scripting/monoscript/fileName/burnEffect.cs: 55adb8f18d380c7bd9d50342bff7b00b -> 74788f1b9b14b856f689c27e3a2ffab9
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\shk54\Desktop\Unity\MasteringShader\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\shk54\Desktop\Unity\MasteringShader\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.579 seconds
+Refreshing native plugins compatible for Editor in 3.09 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.661 seconds
+Domain Reload Profiling: 1238ms
+	BeginReloadAssembly (117ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (388ms)
+		LoadAssemblies (210ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (223ms)
+			TypeCache.Refresh (215ms)
+				TypeCache.ScanAssembly (205ms)
+			ScanForSourceGeneratedMonoScriptInfo (3ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (662ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (276ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (51ms)
+			ProcessInitializeOnLoadAttributes (196ms)
+			ProcessInitializeOnLoadMethodAttributes (14ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Shader 'PACKT/unlit_wireframe': fallback shader 'Vertex Colored' not found
+Refreshing native plugins compatible for Editor in 2.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3209 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 61 unused Assets / (3.4 MB). Loaded Objects now: 3758.
+Memory consumption went from 138.0 MB to 134.5 MB.
+Total: 3.730800 ms (FindLiveObjects: 0.236900 ms CreateObjectMapping: 0.175200 ms MarkObjects: 2.317800 ms  DeleteObjects: 0.999900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/orbitTrail.cs: 10110efdcfe63599606328c8f5dc1b39 -> aaa50e02d834f55570c9ccc55ff53d2a
+  custom:scripting/monoscript/fileName/alienDrops.cs: 92141a5ef9cd37883681e3af86d91b51 -> 1e2e2421cc8158a583e5cec70ec1f642
+  custom:scripting/monoscript/fileName/bary.cs: 06a34c0ffe311c616df29158b5c8efd0 -> f8f44dce6c1320ebed5e7597e1c84988
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/textAnim.cs: 87297d3d24fc3c7426fefff397988e21 -> 2a0993546192c8ff4d6919a1d7e89a71
+  custom:scripting/monoscript/fileName/characterMover.cs: c0710bf5067f294231651d7d591f3cbf -> deb36823278734b01c10e0f6385b0fca
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/cloudAnim.cs: 6d9b34ca64ec8a0215b5ac78a30c308d -> 50ccba84a27f6114be5e7a569e3f6056
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/cloudAnim_final.cs: 49bb0b7abb9c0ba66618ca2fd2be76db -> 21dd78e5293625bffcfac1f634d86ec3
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/cameraScript.cs: 68d198bfc8e546bbd8c39d8299719c16 -> 7f9e3ed5ec95d5b752e1d3f7f3cdf4dc
+  custom:scripting/monoscript/fileName/controlTwinkle01.cs: e6b684e9856fa125a0c10d7bd41dd12c -> cf5cff20d854d0c9d98817c8ae2a7245
+  custom:scripting/monoscript/fileName/storm.cs: 4f528595223a101c1d1a2918db40a412 -> b2476ed3ded2a5da53db5c61b614bbe0
+  custom:scripting/monoscript/fileName/offsetTexture.cs: 00293bc961aa98b3e38bbe844da821d3 -> d95b5bc08d50e1d060fdd5b5f1a02ec3
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/alienMover.cs: debc5dbdf2f25d3185756447f58c6ac8 -> fd3bbee737ecaa73d834837790d2b092
+  custom:scripting/monoscript/fileName/destHS.cs: 67a8e57d2f31e2c610e8e63190206fd6 -> a0679f875eb1bb16ac3fe5a591be5830
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/controlTwinkle_final.cs: 464fa944638499f339a41a3b37e2077c -> 30027fb9f3aaf60c2f2958816f845bec
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/crateNumbers.cs: ebdb331d3b5a794d8031cf74a1409560 -> fe5f7b97248edfbbfb54041c095ab925
+  custom:scripting/monoscript/fileName/planetSurf.cs: e7fa15da115b461263488ba6ea568a90 -> e3a420f977c86cf19a80a2f7f9d04f0a
+  custom:scripting/monoscript/fileName/burnEffect.cs: 55adb8f18d380c7bd9d50342bff7b00b -> 74788f1b9b14b856f689c27e3a2ffab9
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\shk54\Desktop\Unity\MasteringShader\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\shk54\Desktop\Unity\MasteringShader\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.513 seconds
+Refreshing native plugins compatible for Editor in 2.36 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.659 seconds
+Domain Reload Profiling: 1170ms
+	BeginReloadAssembly (114ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (342ms)
+		LoadAssemblies (192ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (199ms)
+			TypeCache.Refresh (196ms)
+				TypeCache.ScanAssembly (187ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (659ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (281ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (53ms)
+			ProcessInitializeOnLoadAttributes (197ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Shader 'PACKT/unlit_wireframe': fallback shader 'Vertex Colored' not found
+Refreshing native plugins compatible for Editor in 2.07 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3209 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 61 unused Assets / (3.4 MB). Loaded Objects now: 3761.
+Memory consumption went from 138.0 MB to 134.5 MB.
+Total: 3.802100 ms (FindLiveObjects: 0.264200 ms CreateObjectMapping: 0.193100 ms MarkObjects: 2.374400 ms  DeleteObjects: 0.969400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/orbitTrail.cs: 10110efdcfe63599606328c8f5dc1b39 -> aaa50e02d834f55570c9ccc55ff53d2a
+  custom:scripting/monoscript/fileName/alienDrops.cs: 92141a5ef9cd37883681e3af86d91b51 -> 1e2e2421cc8158a583e5cec70ec1f642
+  custom:scripting/monoscript/fileName/bary.cs: 06a34c0ffe311c616df29158b5c8efd0 -> f8f44dce6c1320ebed5e7597e1c84988
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/textAnim.cs: 87297d3d24fc3c7426fefff397988e21 -> 2a0993546192c8ff4d6919a1d7e89a71
+  custom:scripting/monoscript/fileName/characterMover.cs: c0710bf5067f294231651d7d591f3cbf -> deb36823278734b01c10e0f6385b0fca
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/cloudAnim.cs: 6d9b34ca64ec8a0215b5ac78a30c308d -> 50ccba84a27f6114be5e7a569e3f6056
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/cloudAnim_final.cs: 49bb0b7abb9c0ba66618ca2fd2be76db -> 21dd78e5293625bffcfac1f634d86ec3
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/cameraScript.cs: 68d198bfc8e546bbd8c39d8299719c16 -> 7f9e3ed5ec95d5b752e1d3f7f3cdf4dc
+  custom:scripting/monoscript/fileName/controlTwinkle01.cs: e6b684e9856fa125a0c10d7bd41dd12c -> cf5cff20d854d0c9d98817c8ae2a7245
+  custom:scripting/monoscript/fileName/storm.cs: 4f528595223a101c1d1a2918db40a412 -> b2476ed3ded2a5da53db5c61b614bbe0
+  custom:scripting/monoscript/fileName/offsetTexture.cs: 00293bc961aa98b3e38bbe844da821d3 -> d95b5bc08d50e1d060fdd5b5f1a02ec3
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/alienMover.cs: debc5dbdf2f25d3185756447f58c6ac8 -> fd3bbee737ecaa73d834837790d2b092
+  custom:scripting/monoscript/fileName/destHS.cs: 67a8e57d2f31e2c610e8e63190206fd6 -> a0679f875eb1bb16ac3fe5a591be5830
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/controlTwinkle_final.cs: 464fa944638499f339a41a3b37e2077c -> 30027fb9f3aaf60c2f2958816f845bec
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/crateNumbers.cs: ebdb331d3b5a794d8031cf74a1409560 -> fe5f7b97248edfbbfb54041c095ab925
+  custom:scripting/monoscript/fileName/planetSurf.cs: e7fa15da115b461263488ba6ea568a90 -> e3a420f977c86cf19a80a2f7f9d04f0a
+  custom:scripting/monoscript/fileName/burnEffect.cs: 55adb8f18d380c7bd9d50342bff7b00b -> 74788f1b9b14b856f689c27e3a2ffab9
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\shk54\Desktop\Unity\MasteringShader\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\shk54\Desktop\Unity\MasteringShader\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.540 seconds
+Refreshing native plugins compatible for Editor in 2.05 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.620 seconds
+Domain Reload Profiling: 1159ms
+	BeginReloadAssembly (117ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (359ms)
+		LoadAssemblies (196ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (210ms)
+			TypeCache.Refresh (205ms)
+				TypeCache.ScanAssembly (195ms)
+			ScanForSourceGeneratedMonoScriptInfo (2ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (621ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (261ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (50ms)
+			ProcessInitializeOnLoadAttributes (182ms)
+			ProcessInitializeOnLoadMethodAttributes (14ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Shader 'PACKT/unlit_wireframe': fallback shader 'Vertex Colored' not found
+Refreshing native plugins compatible for Editor in 2.33 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3209 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 61 unused Assets / (3.4 MB). Loaded Objects now: 3764.
+Memory consumption went from 138.0 MB to 134.5 MB.
+Total: 3.369500 ms (FindLiveObjects: 0.231600 ms CreateObjectMapping: 0.089900 ms MarkObjects: 2.096600 ms  DeleteObjects: 0.949400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/orbitTrail.cs: 10110efdcfe63599606328c8f5dc1b39 -> aaa50e02d834f55570c9ccc55ff53d2a
+  custom:scripting/monoscript/fileName/alienDrops.cs: 92141a5ef9cd37883681e3af86d91b51 -> 1e2e2421cc8158a583e5cec70ec1f642
+  custom:scripting/monoscript/fileName/bary.cs: 06a34c0ffe311c616df29158b5c8efd0 -> f8f44dce6c1320ebed5e7597e1c84988
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/textAnim.cs: 87297d3d24fc3c7426fefff397988e21 -> 2a0993546192c8ff4d6919a1d7e89a71
+  custom:scripting/monoscript/fileName/characterMover.cs: c0710bf5067f294231651d7d591f3cbf -> deb36823278734b01c10e0f6385b0fca
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/cloudAnim.cs: 6d9b34ca64ec8a0215b5ac78a30c308d -> 50ccba84a27f6114be5e7a569e3f6056
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/cloudAnim_final.cs: 49bb0b7abb9c0ba66618ca2fd2be76db -> 21dd78e5293625bffcfac1f634d86ec3
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/cameraScript.cs: 68d198bfc8e546bbd8c39d8299719c16 -> 7f9e3ed5ec95d5b752e1d3f7f3cdf4dc
+  custom:scripting/monoscript/fileName/controlTwinkle01.cs: e6b684e9856fa125a0c10d7bd41dd12c -> cf5cff20d854d0c9d98817c8ae2a7245
+  custom:scripting/monoscript/fileName/storm.cs: 4f528595223a101c1d1a2918db40a412 -> b2476ed3ded2a5da53db5c61b614bbe0
+  custom:scripting/monoscript/fileName/offsetTexture.cs: 00293bc961aa98b3e38bbe844da821d3 -> d95b5bc08d50e1d060fdd5b5f1a02ec3
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/alienMover.cs: debc5dbdf2f25d3185756447f58c6ac8 -> fd3bbee737ecaa73d834837790d2b092
+  custom:scripting/monoscript/fileName/destHS.cs: 67a8e57d2f31e2c610e8e63190206fd6 -> a0679f875eb1bb16ac3fe5a591be5830
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/controlTwinkle_final.cs: 464fa944638499f339a41a3b37e2077c -> 30027fb9f3aaf60c2f2958816f845bec
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/crateNumbers.cs: ebdb331d3b5a794d8031cf74a1409560 -> fe5f7b97248edfbbfb54041c095ab925
+  custom:scripting/monoscript/fileName/planetSurf.cs: e7fa15da115b461263488ba6ea568a90 -> e3a420f977c86cf19a80a2f7f9d04f0a
+  custom:scripting/monoscript/fileName/burnEffect.cs: 55adb8f18d380c7bd9d50342bff7b00b -> 74788f1b9b14b856f689c27e3a2ffab9
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\shk54\Desktop\Unity\MasteringShader\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\shk54\Desktop\Unity\MasteringShader\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.498 seconds
+Refreshing native plugins compatible for Editor in 2.05 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.635 seconds
+Domain Reload Profiling: 1132ms
+	BeginReloadAssembly (107ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (334ms)
+		LoadAssemblies (185ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (193ms)
+			TypeCache.Refresh (190ms)
+				TypeCache.ScanAssembly (180ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (635ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (276ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (53ms)
+			ProcessInitializeOnLoadAttributes (193ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Shader 'PACKT/unlit_wireframe': fallback shader 'Vertex Colored' not found
+Refreshing native plugins compatible for Editor in 2.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3209 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 61 unused Assets / (3.4 MB). Loaded Objects now: 3767.
+Memory consumption went from 138.0 MB to 134.5 MB.
+Total: 3.974700 ms (FindLiveObjects: 0.249100 ms CreateObjectMapping: 0.086500 ms MarkObjects: 2.621000 ms  DeleteObjects: 1.017200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/orbitTrail.cs: 10110efdcfe63599606328c8f5dc1b39 -> aaa50e02d834f55570c9ccc55ff53d2a
+  custom:scripting/monoscript/fileName/alienDrops.cs: 92141a5ef9cd37883681e3af86d91b51 -> 1e2e2421cc8158a583e5cec70ec1f642
+  custom:scripting/monoscript/fileName/bary.cs: 06a34c0ffe311c616df29158b5c8efd0 -> f8f44dce6c1320ebed5e7597e1c84988
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/textAnim.cs: 87297d3d24fc3c7426fefff397988e21 -> 2a0993546192c8ff4d6919a1d7e89a71
+  custom:scripting/monoscript/fileName/characterMover.cs: c0710bf5067f294231651d7d591f3cbf -> deb36823278734b01c10e0f6385b0fca
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/cloudAnim.cs: 6d9b34ca64ec8a0215b5ac78a30c308d -> 50ccba84a27f6114be5e7a569e3f6056
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/cloudAnim_final.cs: 49bb0b7abb9c0ba66618ca2fd2be76db -> 21dd78e5293625bffcfac1f634d86ec3
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/cameraScript.cs: 68d198bfc8e546bbd8c39d8299719c16 -> 7f9e3ed5ec95d5b752e1d3f7f3cdf4dc
+  custom:scripting/monoscript/fileName/controlTwinkle01.cs: e6b684e9856fa125a0c10d7bd41dd12c -> cf5cff20d854d0c9d98817c8ae2a7245
+  custom:scripting/monoscript/fileName/storm.cs: 4f528595223a101c1d1a2918db40a412 -> b2476ed3ded2a5da53db5c61b614bbe0
+  custom:scripting/monoscript/fileName/offsetTexture.cs: 00293bc961aa98b3e38bbe844da821d3 -> d95b5bc08d50e1d060fdd5b5f1a02ec3
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/alienMover.cs: debc5dbdf2f25d3185756447f58c6ac8 -> fd3bbee737ecaa73d834837790d2b092
+  custom:scripting/monoscript/fileName/destHS.cs: 67a8e57d2f31e2c610e8e63190206fd6 -> a0679f875eb1bb16ac3fe5a591be5830
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/controlTwinkle_final.cs: 464fa944638499f339a41a3b37e2077c -> 30027fb9f3aaf60c2f2958816f845bec
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/crateNumbers.cs: ebdb331d3b5a794d8031cf74a1409560 -> fe5f7b97248edfbbfb54041c095ab925
+  custom:scripting/monoscript/fileName/planetSurf.cs: e7fa15da115b461263488ba6ea568a90 -> e3a420f977c86cf19a80a2f7f9d04f0a
+  custom:scripting/monoscript/fileName/burnEffect.cs: 55adb8f18d380c7bd9d50342bff7b00b -> 74788f1b9b14b856f689c27e3a2ffab9
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\shk54\Desktop\Unity\MasteringShader\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\shk54\Desktop\Unity\MasteringShader\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.556 seconds
+Refreshing native plugins compatible for Editor in 2.96 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.615 seconds
+Domain Reload Profiling: 1170ms
+	BeginReloadAssembly (114ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (372ms)
+		LoadAssemblies (188ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (233ms)
+			TypeCache.Refresh (226ms)
+				TypeCache.ScanAssembly (214ms)
+			ScanForSourceGeneratedMonoScriptInfo (2ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (615ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (256ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (48ms)
+			ProcessInitializeOnLoadAttributes (180ms)
+			ProcessInitializeOnLoadMethodAttributes (14ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Shader 'PACKT/unlit_wireframe': fallback shader 'Vertex Colored' not found
+Refreshing native plugins compatible for Editor in 2.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3209 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 61 unused Assets / (3.4 MB). Loaded Objects now: 3770.
+Memory consumption went from 138.0 MB to 134.5 MB.
+Total: 3.444300 ms (FindLiveObjects: 0.234600 ms CreateObjectMapping: 0.088800 ms MarkObjects: 2.117600 ms  DeleteObjects: 1.002500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/orbitTrail.cs: 10110efdcfe63599606328c8f5dc1b39 -> aaa50e02d834f55570c9ccc55ff53d2a
+  custom:scripting/monoscript/fileName/alienDrops.cs: 92141a5ef9cd37883681e3af86d91b51 -> 1e2e2421cc8158a583e5cec70ec1f642
+  custom:scripting/monoscript/fileName/bary.cs: 06a34c0ffe311c616df29158b5c8efd0 -> f8f44dce6c1320ebed5e7597e1c84988
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/textAnim.cs: 87297d3d24fc3c7426fefff397988e21 -> 2a0993546192c8ff4d6919a1d7e89a71
+  custom:scripting/monoscript/fileName/characterMover.cs: c0710bf5067f294231651d7d591f3cbf -> deb36823278734b01c10e0f6385b0fca
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/cloudAnim.cs: 6d9b34ca64ec8a0215b5ac78a30c308d -> 50ccba84a27f6114be5e7a569e3f6056
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/cloudAnim_final.cs: 49bb0b7abb9c0ba66618ca2fd2be76db -> 21dd78e5293625bffcfac1f634d86ec3
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/cameraScript.cs: 68d198bfc8e546bbd8c39d8299719c16 -> 7f9e3ed5ec95d5b752e1d3f7f3cdf4dc
+  custom:scripting/monoscript/fileName/controlTwinkle01.cs: e6b684e9856fa125a0c10d7bd41dd12c -> cf5cff20d854d0c9d98817c8ae2a7245
+  custom:scripting/monoscript/fileName/storm.cs: 4f528595223a101c1d1a2918db40a412 -> b2476ed3ded2a5da53db5c61b614bbe0
+  custom:scripting/monoscript/fileName/offsetTexture.cs: 00293bc961aa98b3e38bbe844da821d3 -> d95b5bc08d50e1d060fdd5b5f1a02ec3
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/alienMover.cs: debc5dbdf2f25d3185756447f58c6ac8 -> fd3bbee737ecaa73d834837790d2b092
+  custom:scripting/monoscript/fileName/destHS.cs: 67a8e57d2f31e2c610e8e63190206fd6 -> a0679f875eb1bb16ac3fe5a591be5830
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/controlTwinkle_final.cs: 464fa944638499f339a41a3b37e2077c -> 30027fb9f3aaf60c2f2958816f845bec
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/crateNumbers.cs: ebdb331d3b5a794d8031cf74a1409560 -> fe5f7b97248edfbbfb54041c095ab925
+  custom:scripting/monoscript/fileName/planetSurf.cs: e7fa15da115b461263488ba6ea568a90 -> e3a420f977c86cf19a80a2f7f9d04f0a
+  custom:scripting/monoscript/fileName/burnEffect.cs: 55adb8f18d380c7bd9d50342bff7b00b -> 74788f1b9b14b856f689c27e3a2ffab9
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\shk54\Desktop\Unity\MasteringShader\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\shk54\Desktop\Unity\MasteringShader\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.501 seconds
+Refreshing native plugins compatible for Editor in 2.15 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.627 seconds
+Domain Reload Profiling: 1127ms
+	BeginReloadAssembly (107ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (338ms)
+		LoadAssemblies (186ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (196ms)
+			TypeCache.Refresh (193ms)
+				TypeCache.ScanAssembly (184ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (628ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (278ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (53ms)
+			ProcessInitializeOnLoadAttributes (193ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Shader 'PACKT/unlit_wireframe': fallback shader 'Vertex Colored' not found
+Refreshing native plugins compatible for Editor in 2.38 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3209 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 61 unused Assets / (3.4 MB). Loaded Objects now: 3773.
+Memory consumption went from 138.0 MB to 134.5 MB.
+Total: 4.085100 ms (FindLiveObjects: 0.402200 ms CreateObjectMapping: 0.231200 ms MarkObjects: 2.391800 ms  DeleteObjects: 1.058900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/orbitTrail.cs: 10110efdcfe63599606328c8f5dc1b39 -> aaa50e02d834f55570c9ccc55ff53d2a
+  custom:scripting/monoscript/fileName/alienDrops.cs: 92141a5ef9cd37883681e3af86d91b51 -> 1e2e2421cc8158a583e5cec70ec1f642
+  custom:scripting/monoscript/fileName/bary.cs: 06a34c0ffe311c616df29158b5c8efd0 -> f8f44dce6c1320ebed5e7597e1c84988
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/textAnim.cs: 87297d3d24fc3c7426fefff397988e21 -> 2a0993546192c8ff4d6919a1d7e89a71
+  custom:scripting/monoscript/fileName/characterMover.cs: c0710bf5067f294231651d7d591f3cbf -> deb36823278734b01c10e0f6385b0fca
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/cloudAnim.cs: 6d9b34ca64ec8a0215b5ac78a30c308d -> 50ccba84a27f6114be5e7a569e3f6056
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/cloudAnim_final.cs: 49bb0b7abb9c0ba66618ca2fd2be76db -> 21dd78e5293625bffcfac1f634d86ec3
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/cameraScript.cs: 68d198bfc8e546bbd8c39d8299719c16 -> 7f9e3ed5ec95d5b752e1d3f7f3cdf4dc
+  custom:scripting/monoscript/fileName/controlTwinkle01.cs: e6b684e9856fa125a0c10d7bd41dd12c -> cf5cff20d854d0c9d98817c8ae2a7245
+  custom:scripting/monoscript/fileName/storm.cs: 4f528595223a101c1d1a2918db40a412 -> b2476ed3ded2a5da53db5c61b614bbe0
+  custom:scripting/monoscript/fileName/offsetTexture.cs: 00293bc961aa98b3e38bbe844da821d3 -> d95b5bc08d50e1d060fdd5b5f1a02ec3
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/alienMover.cs: debc5dbdf2f25d3185756447f58c6ac8 -> fd3bbee737ecaa73d834837790d2b092
+  custom:scripting/monoscript/fileName/destHS.cs: 67a8e57d2f31e2c610e8e63190206fd6 -> a0679f875eb1bb16ac3fe5a591be5830
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/controlTwinkle_final.cs: 464fa944638499f339a41a3b37e2077c -> 30027fb9f3aaf60c2f2958816f845bec
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/crateNumbers.cs: ebdb331d3b5a794d8031cf74a1409560 -> fe5f7b97248edfbbfb54041c095ab925
+  custom:scripting/monoscript/fileName/planetSurf.cs: e7fa15da115b461263488ba6ea568a90 -> e3a420f977c86cf19a80a2f7f9d04f0a
+  custom:scripting/monoscript/fileName/burnEffect.cs: 55adb8f18d380c7bd9d50342bff7b00b -> 74788f1b9b14b856f689c27e3a2ffab9
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 6487.970826 seconds.
+  path: Assets/MasteringShader
+  artifactKey: Guid(a80949128d3891e4ead690933ee3c0f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MasteringShader using Guid(a80949128d3891e4ead690933ee3c0f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f900a3036c2b45f8270acf4db8c3cf47') in 0.011076 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\shk54\Desktop\Unity\MasteringShader\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\shk54\Desktop\Unity\MasteringShader\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.612 seconds
+Refreshing native plugins compatible for Editor in 2.27 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.638 seconds
+Domain Reload Profiling: 1249ms
+	BeginReloadAssembly (121ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (423ms)
+		LoadAssemblies (234ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (238ms)
+			TypeCache.Refresh (234ms)
+				TypeCache.ScanAssembly (224ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (639ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (240ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (47ms)
+			ProcessInitializeOnLoadAttributes (166ms)
+			ProcessInitializeOnLoadMethodAttributes (14ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Shader 'PACKT/unlit_wireframe': fallback shader 'Vertex Colored' not found
+Refreshing native plugins compatible for Editor in 2.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3208 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 61 unused Assets / (3.4 MB). Loaded Objects now: 3776.
+Memory consumption went from 137.7 MB to 134.3 MB.
+Total: 4.019000 ms (FindLiveObjects: 0.473800 ms CreateObjectMapping: 0.127900 ms MarkObjects: 2.346100 ms  DeleteObjects: 1.070700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/orbitTrail.cs: 10110efdcfe63599606328c8f5dc1b39 -> aaa50e02d834f55570c9ccc55ff53d2a
+  custom:scripting/monoscript/fileName/alienDrops.cs: 92141a5ef9cd37883681e3af86d91b51 -> 1e2e2421cc8158a583e5cec70ec1f642
+  custom:scripting/monoscript/fileName/bary.cs: 06a34c0ffe311c616df29158b5c8efd0 -> f8f44dce6c1320ebed5e7597e1c84988
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/textAnim.cs: 87297d3d24fc3c7426fefff397988e21 -> 2a0993546192c8ff4d6919a1d7e89a71
+  custom:scripting/monoscript/fileName/characterMover.cs: c0710bf5067f294231651d7d591f3cbf -> deb36823278734b01c10e0f6385b0fca
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/cloudAnim.cs: 6d9b34ca64ec8a0215b5ac78a30c308d -> 50ccba84a27f6114be5e7a569e3f6056
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/cloudAnim_final.cs: 49bb0b7abb9c0ba66618ca2fd2be76db -> 21dd78e5293625bffcfac1f634d86ec3
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/cameraScript.cs: 68d198bfc8e546bbd8c39d8299719c16 -> 7f9e3ed5ec95d5b752e1d3f7f3cdf4dc
+  custom:scripting/monoscript/fileName/controlTwinkle01.cs: e6b684e9856fa125a0c10d7bd41dd12c -> cf5cff20d854d0c9d98817c8ae2a7245
+  custom:scripting/monoscript/fileName/storm.cs: 4f528595223a101c1d1a2918db40a412 -> b2476ed3ded2a5da53db5c61b614bbe0
+  custom:scripting/monoscript/fileName/offsetTexture.cs: 00293bc961aa98b3e38bbe844da821d3 -> d95b5bc08d50e1d060fdd5b5f1a02ec3
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/alienMover.cs: debc5dbdf2f25d3185756447f58c6ac8 -> fd3bbee737ecaa73d834837790d2b092
+  custom:scripting/monoscript/fileName/destHS.cs: 67a8e57d2f31e2c610e8e63190206fd6 -> a0679f875eb1bb16ac3fe5a591be5830
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/controlTwinkle_final.cs: 464fa944638499f339a41a3b37e2077c -> 30027fb9f3aaf60c2f2958816f845bec
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/crateNumbers.cs: ebdb331d3b5a794d8031cf74a1409560 -> fe5f7b97248edfbbfb54041c095ab925
+  custom:scripting/monoscript/fileName/planetSurf.cs: e7fa15da115b461263488ba6ea568a90 -> e3a420f977c86cf19a80a2f7f9d04f0a
+  custom:scripting/monoscript/fileName/burnEffect.cs: 55adb8f18d380c7bd9d50342bff7b00b -> 74788f1b9b14b856f689c27e3a2ffab9
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
