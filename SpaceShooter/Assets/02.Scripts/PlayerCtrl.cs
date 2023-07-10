@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Threading;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerCtrl : MonoBehaviour
 {
@@ -14,11 +16,14 @@ public class PlayerCtrl : MonoBehaviour
 
     readonly float initHp = 100f;
     public float currHp;
+    Image hpBar;
+    static bool isAttacked = false;
 
     public delegate void PlayerDieHandler();
     public static event PlayerDieHandler OnPlayerDie;
     IEnumerator Start()
     {
+        hpBar = GameObject.FindGameObjectWithTag("HP_BAR")?.GetComponent<Image>();
         currHp = initHp;
 
         tr = GetComponent<Transform>();
@@ -78,12 +83,19 @@ public class PlayerCtrl : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if(currHp>=0.0f && other.CompareTag("PUNCH"))
+        if (!isAttacked && currHp >= 0.0f && other.CompareTag("PUNCH"))
         {
+            new Thread(() =>
+            {
+                isAttacked = true;
+                Thread.Sleep(1000);
+                isAttacked = false;
+            }).Start();
             currHp -= 10f;
+            hpBar.fillAmount = currHp / initHp;
             Debug.Log($"Player hp = {currHp / initHp}");
 
-            if(currHp <= 0f)
+            if (currHp <= 0f)
             {
                 PlayerDie();
             }
@@ -102,5 +114,10 @@ public class PlayerCtrl : MonoBehaviour
         //}
 
         OnPlayerDie();
+    }
+    bool IsAttacked()
+    {
+        Thread.Sleep(3000);
+        return false;
     }
 }

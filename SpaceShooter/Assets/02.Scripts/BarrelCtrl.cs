@@ -1,15 +1,19 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.AI.Navigation;
 using UnityEngine;
+using UnityEditor.AI;
 
 public class BarrelCtrl : MonoBehaviour
 {
     public GameObject expEffect;
     public Texture[] textures;
     new MeshRenderer renderer;
+    public GameObject floor;
 
     public float radius = 10;
 
+    NavMeshSurface surface;
     Transform tr;
     Rigidbody rb;
     int hitCount;
@@ -19,18 +23,19 @@ public class BarrelCtrl : MonoBehaviour
     {
         tr = GetComponent<Transform>();
         rb = GetComponent<Rigidbody>();
-
+        surface = floor.GetComponent<NavMeshSurface>();
         renderer = GetComponentInChildren<MeshRenderer>();
 
         int idx = Random.Range(0, textures.Length);
 
         renderer.material.mainTexture = textures[idx];
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        //StartCoroutine(NavUpdate());
     }
 
     void OnCollisionEnter(Collision collision)
@@ -42,6 +47,7 @@ public class BarrelCtrl : MonoBehaviour
                 ExpBarrel();
             }
         }
+        surface.BuildNavMesh();
     }
 
     void ExpBarrel()
@@ -54,8 +60,6 @@ public class BarrelCtrl : MonoBehaviour
         //rb.AddForce(Vector3.up * 1500);
 
         IndirectDamage(tr.position);
-
-
         Destroy(gameObject, 3f);
     }
 
@@ -70,5 +74,12 @@ public class BarrelCtrl : MonoBehaviour
             rb.constraints = RigidbodyConstraints.None;
             rb.AddExplosionForce(1500, pos, radius, 1200);
         }
+    }
+
+    IEnumerator NavUpdate()
+    {
+        surface.BuildNavMesh();
+        yield return new WaitForSeconds(3f);
+
     }
 }
